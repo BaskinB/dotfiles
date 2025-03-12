@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.34/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+
+
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "mouse_follows_focus": false,
+
+
+  "default_workspace_padding": 2,
+  "default_container_padding": 2,
+
+
+  "border": true,
+  "border_width": 3,
+  "border_offset": -1,
+  "border_colours": {
+    "single": "#a277ff",
+    "stack": "#a277ff",
+    "floating": "#61ffca",
+    "unfocused": "#3d375e7f",
+    "monocle": "#ff6767"
+  },
+
+
+  "stackbar": {
+    "height": 40,
+    "mode": "Never",
+    "tabs": {
+      "width": 125
+    }
+  },
+
+
+  "ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "Yasb.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "[Pp]icture.in.[Pp]icture",
+      "matching_strategy": "Regex"
+    },
+    {
+      "kind": "Title",
+      "id": "Chrome_WidgetWin_1|MozillaDialogClass",
+      "matching_strategy": "Regex"
+    },
+    {
+      "kind": "Title",
+      "id": "HwndWrapper[PowerToys.PowerAccent.*?]",
+      "matching_strategy": "Regex"
+    },
+    {
+      "kind": "Title",
+      "id": "HwndWrapper",
+      "matching_strategy": "Regex"
+    },
+    {
+      "kind": "Title",
+      "id": ".*? - Peek",
+      "matching_strategy": "Regex"
+    },
+    {
+      "kind": "Title",
+      "id": "Lively",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "PokeMMO|RDR2|RedM|RedM_b1491_GTAProcess|amtrucks|FiveM_b1604_GTAProcess|FiveM|PlayGTAV|GTA5|swtor|heidisql",
+      "matching_strategy": "Regex"
+    }
+  ],
+
+
+  "display_index_preferences": {
+    "0": "GSM5C1A-5&be88bcd&2&UID176385",
+    "1": "ACI23B1-5&be88bcd&2&UID176384"
+  },
+
+
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "[home]",
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Code.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "[web]",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "brave.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "[comms]",
+          "layout": "HorizontalStack",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Discord.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "[files]",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Explorer.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "wezterm-gui.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "[media]",
+          "layout": "Rows"
+        }
+      ]
+    },
+
+
+    {
+      "workspaces": [
+        {
+          "name": "[obs]",
+          "layout": "BSP"
+        },
+        {
+          "name": "[other]",
+          "layout": "RightMainVerticalStack"
+        }
+      ]
+    }
+  ]
+}
+

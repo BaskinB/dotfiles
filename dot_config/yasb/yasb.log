@@ -1,0 +1,1905 @@
+2025-03-03 12:04:31 INFO log.py:21: Yasb v1.6.4
+2025-03-03 12:04:31 INFO config.py:58: Created default config file at C:\Users\Sloth\.config\yasb\config.yaml
+2025-03-03 12:04:31 INFO config.py:72: Created default stylesheet at C:\Users\Sloth\.config\yasb\styles.css
+2025-03-03 12:04:31 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 12:04:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:04:31.955890
+2025-03-03 12:04:31 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 12:04:32 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 12:04:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:04:32.370606
+2025-03-03 12:04:32 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 12:04:32 INFO event_listener.py:52: Created named pipe yasb-f55f29b5-f859-11ef-9941-d58a6b11842e
+2025-03-03 12:04:32 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f55f29b5-f859-11ef-9941-d58a6b11842e
+2025-03-03 12:04:32 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 12:04:32 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 12:04:32 DEBUG _windows.py:192: Thread started
+2025-03-03 12:04:32 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-03 12:14:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:14:31.968926
+2025-03-03 12:14:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:14:32.373339
+2025-03-03 12:24:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:24:31.965435
+2025-03-03 12:24:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:24:32.370145
+2025-03-03 12:34:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:34:31.959592
+2025-03-03 12:34:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:34:32.378546
+2025-03-03 12:44:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:44:31.963200
+2025-03-03 12:44:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:44:32.367013
+2025-03-03 12:54:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:54:31.963316
+2025-03-03 12:54:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 12:54:32.364772
+2025-03-03 13:04:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:04:31.969599
+2025-03-03 13:04:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:04:32.376863
+2025-03-03 13:14:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:14:31.962412
+2025-03-03 13:14:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:14:32.368367
+2025-03-03 13:24:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:24:31.983325
+2025-03-03 13:24:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:24:32.372279
+2025-03-03 13:34:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:34:31.988307
+2025-03-03 13:34:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:34:32.378119
+2025-03-03 13:44:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:44:31.978774
+2025-03-03 13:44:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:44:32.368308
+2025-03-03 13:54:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:54:31.976242
+2025-03-03 13:54:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 13:54:32.373257
+2025-03-03 14:04:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:04:31.989434
+2025-03-03 14:04:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:04:32.378078
+2025-03-03 14:14:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:14:31.996806
+2025-03-03 14:14:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:14:32.375718
+2025-03-03 14:24:31 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:24:31.998598
+2025-03-03 14:24:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:24:32.373338
+2025-03-03 14:34:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:34:32.000330
+2025-03-03 14:34:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:34:32.370490
+2025-03-03 14:44:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:44:32.015346
+2025-03-03 14:44:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:44:32.373670
+2025-03-03 14:54:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:54:32.013399
+2025-03-03 14:54:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 14:54:32.370453
+2025-03-03 15:04:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 15:04:32.012455
+2025-03-03 15:04:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 15:04:32.374508
+2025-03-03 15:04:54 INFO log.py:21: Yasb v1.6.4
+2025-03-03 15:04:54 ERROR main.py:82: Another instance of the YASB is already running.
+2025-03-03 15:05:06 INFO tray.py:247: Exiting Application...
+2025-03-03 15:05:06 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-03 15:05:06 DEBUG _windows.py:201: Exiting thread
+2025-03-03 15:05:06 DEBUG _windows.py:75: Closing
+2025-03-03 15:05:09 INFO log.py:21: Yasb v1.6.4
+2025-03-03 15:05:09 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 15:05:12 INFO weather.py:367: Fetched new weather data at 2025-03-03 15:05:12.015327
+2025-03-03 15:05:12 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 15:05:12 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 15:05:12 INFO weather.py:367: Fetched new weather data at 2025-03-03 15:05:12.605969
+2025-03-03 15:05:12 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 15:05:12 INFO event_listener.py:52: Created named pipe yasb-32a88207-f873-11ef-bd2a-d58a6b11842e
+2025-03-03 15:05:12 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-32a88207-f873-11ef-bd2a-d58a6b11842e
+2025-03-03 15:05:12 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 15:05:12 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 15:05:12 DEBUG _windows.py:192: Thread started
+2025-03-03 15:05:12 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-03 15:05:22 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-32a88207-f873-11ef-bd2a-d58a6b11842e
+2025-03-03 15:15:12 INFO weather.py:367: Fetched new weather data at 2025-03-03 15:15:12.016208
+2025-03-03 15:15:12 INFO weather.py:367: Fetched new weather data at 2025-03-03 15:15:12.612018
+2025-03-03 15:15:43 INFO tray.py:247: Exiting Application...
+2025-03-03 15:15:43 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-03 15:15:43 DEBUG _windows.py:201: Exiting thread
+2025-03-03 15:15:43 DEBUG _windows.py:75: Closing
+2025-03-03 16:55:12 INFO log.py:21: Yasb v1.6.4
+2025-03-03 16:55:13 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 16:55:16 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:55:16.069714
+2025-03-03 16:55:16 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 16:55:16 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:55:16 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:55:16.628171
+2025-03-03 16:55:16 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:55:16 INFO event_listener.py:52: Created named pipe yasb-92f575f0-f882-11ef-8197-d58a6b11842e
+2025-03-03 16:55:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-92f575f0-f882-11ef-8197-d58a6b11842e
+2025-03-03 16:55:16 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 16:55:16 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 16:55:16 DEBUG _windows.py:192: Thread started
+2025-03-03 16:55:16 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-92f575f0-f882-11ef-8197-d58a6b11842e
+2025-03-03 16:56:32 INFO log.py:21: Yasb v1.6.4
+2025-03-03 16:56:32 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 16:56:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:56:32.880839
+2025-03-03 16:56:32 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 16:56:32 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:56:33 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:56:33.248866
+2025-03-03 16:56:33 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:56:33 INFO event_listener.py:52: Created named pipe yasb-c0a1dd5d-f882-11ef-bdd2-d58a6b11842e
+2025-03-03 16:56:33 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-c0a1dd5d-f882-11ef-bdd2-d58a6b11842e
+2025-03-03 16:56:33 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 16:56:33 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 16:56:33 DEBUG _windows.py:192: Thread started
+2025-03-03 16:56:33 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-c0a1dd5d-f882-11ef-bdd2-d58a6b11842e
+2025-03-03 16:56:34 WARNING weather.py:407: An unexpected error occurred while loading icon http://cdn.weatherapi.com/weather/64x64/day/113.png: timed out
+2025-03-03 16:56:47 INFO log.py:21: Yasb v1.6.4
+2025-03-03 16:56:47 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 16:56:48 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:56:48.153511
+2025-03-03 16:56:48 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 16:56:48 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:56:48 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:56:48.471449
+2025-03-03 16:56:48 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:56:48 INFO event_listener.py:52: Created named pipe yasb-c9af70f7-f882-11ef-a88c-d58a6b11842e
+2025-03-03 16:56:48 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-c9af70f7-f882-11ef-a88c-d58a6b11842e
+2025-03-03 16:56:48 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 16:56:48 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 16:56:48 DEBUG _windows.py:192: Thread started
+2025-03-03 16:56:48 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-c9af70f7-f882-11ef-a88c-d58a6b11842e
+2025-03-03 16:58:17 INFO log.py:21: Yasb v1.6.4
+2025-03-03 16:58:17 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 16:58:17 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:58:17.916253
+2025-03-03 16:58:17 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 16:58:17 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:58:18 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:58:18.290903
+2025-03-03 16:58:18 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:58:18 INFO event_listener.py:52: Created named pipe yasb-ff3db995-f882-11ef-b344-d58a6b11842e
+2025-03-03 16:58:18 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ff3db995-f882-11ef-b344-d58a6b11842e
+2025-03-03 16:58:18 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 16:58:18 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 16:58:18 DEBUG _windows.py:192: Thread started
+2025-03-03 16:58:18 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ff3db995-f882-11ef-b344-d58a6b11842e
+2025-03-03 16:59:10 INFO log.py:21: Yasb v1.6.4
+2025-03-03 16:59:10 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 16:59:10 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:59:10.871107
+2025-03-03 16:59:10 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 16:59:10 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:59:11 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:59:11.268228
+2025-03-03 16:59:11 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:59:11 INFO event_listener.py:52: Created named pipe yasb-1ed17382-f883-11ef-88f8-d58a6b11842e
+2025-03-03 16:59:11 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-1ed17382-f883-11ef-88f8-d58a6b11842e
+2025-03-03 16:59:11 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 16:59:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 16:59:11 DEBUG _windows.py:192: Thread started
+2025-03-03 16:59:11 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-1ed17382-f883-11ef-88f8-d58a6b11842e
+2025-03-03 16:59:18 INFO log.py:21: Yasb v1.6.4
+2025-03-03 16:59:18 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 16:59:18 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:59:18.758288
+2025-03-03 16:59:18 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 16:59:18 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:59:19 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:59:19.140120
+2025-03-03 16:59:19 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:59:19 INFO event_listener.py:52: Created named pipe yasb-2383376e-f883-11ef-9c6a-d58a6b11842e
+2025-03-03 16:59:19 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-2383376e-f883-11ef-9c6a-d58a6b11842e
+2025-03-03 16:59:19 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 16:59:19 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 16:59:19 DEBUG _windows.py:192: Thread started
+2025-03-03 16:59:19 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-2383376e-f883-11ef-9c6a-d58a6b11842e
+2025-03-03 16:59:41 INFO log.py:21: Yasb v1.6.4
+2025-03-03 16:59:41 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 16:59:41 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:59:41.765183
+2025-03-03 16:59:41 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 16:59:41 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:59:42 INFO weather.py:367: Fetched new weather data at 2025-03-03 16:59:42.140293
+2025-03-03 16:59:42 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 16:59:42 INFO event_listener.py:52: Created named pipe yasb-3138689f-f883-11ef-b30c-d58a6b11842e
+2025-03-03 16:59:42 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-3138689f-f883-11ef-b30c-d58a6b11842e
+2025-03-03 16:59:42 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 16:59:42 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 16:59:42 DEBUG _windows.py:192: Thread started
+2025-03-03 16:59:42 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3138689f-f883-11ef-b30c-d58a6b11842e
+2025-03-03 17:00:29 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:00:29 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:00:29 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:00:29.861046
+2025-03-03 17:00:29 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:00:29 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:00:30 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:00:30.269276
+2025-03-03 17:00:30 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:00:30 INFO event_listener.py:52: Created named pipe yasb-4de84e64-f883-11ef-907f-d58a6b11842e
+2025-03-03 17:00:30 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-4de84e64-f883-11ef-907f-d58a6b11842e
+2025-03-03 17:00:30 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:00:30 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:00:30 DEBUG _windows.py:192: Thread started
+2025-03-03 17:00:30 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-4de84e64-f883-11ef-907f-d58a6b11842e
+2025-03-03 17:01:01 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 93, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 100, column 9
+2025-03-03 17:01:01 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 93, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 100, column 9
+2025-03-03 17:01:01 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 93, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 100, column 9
+2025-03-03 17:01:51 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:01:51 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:01:51 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:01:51.948597
+2025-03-03 17:01:51 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:01:52 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:01:52 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:01:52.327590
+2025-03-03 17:01:52 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:01:52 INFO event_listener.py:52: Created named pipe yasb-7ed147d1-f883-11ef-8f0e-d58a6b11842e
+2025-03-03 17:01:52 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-7ed147d1-f883-11ef-8f0e-d58a6b11842e
+2025-03-03 17:01:52 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:01:52 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:01:52 DEBUG _windows.py:192: Thread started
+2025-03-03 17:01:52 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-7ed147d1-f883-11ef-8f0e-d58a6b11842e
+2025-03-03 17:02:03 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:02:03 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:02:03 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:03.504649
+2025-03-03 17:02:03 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:02:03 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:03 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:03.874687
+2025-03-03 17:02:03 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:03 INFO event_listener.py:52: Created named pipe yasb-85b32484-f883-11ef-b4d3-d58a6b11842e
+2025-03-03 17:02:03 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-85b32484-f883-11ef-b4d3-d58a6b11842e
+2025-03-03 17:02:03 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:02:03 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:02:03 DEBUG _windows.py:192: Thread started
+2025-03-03 17:02:04 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-85b32484-f883-11ef-b4d3-d58a6b11842e
+2025-03-03 17:02:07 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:02:07 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:02:07 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:07.362732
+2025-03-03 17:02:07 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:02:07 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:07 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:07.721643
+2025-03-03 17:02:07 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:07 INFO event_listener.py:52: Created named pipe yasb-87fe4992-f883-11ef-840b-d58a6b11842e
+2025-03-03 17:02:07 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-87fe4992-f883-11ef-840b-d58a6b11842e
+2025-03-03 17:02:07 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:02:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:02:07 DEBUG _windows.py:192: Thread started
+2025-03-03 17:02:07 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-87fe4992-f883-11ef-840b-d58a6b11842e
+2025-03-03 17:02:14 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:02:14 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:02:14 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:14.912837
+2025-03-03 17:02:14 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:02:14 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:15 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:15.281716
+2025-03-03 17:02:15 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:15 INFO event_listener.py:52: Created named pipe yasb-8c7fa816-f883-11ef-a8d4-d58a6b11842e
+2025-03-03 17:02:15 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-8c7fa816-f883-11ef-a8d4-d58a6b11842e
+2025-03-03 17:02:15 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:02:15 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:02:15 DEBUG _windows.py:192: Thread started
+2025-03-03 17:02:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-8c7fa816-f883-11ef-a8d4-d58a6b11842e
+2025-03-03 17:02:25 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:02:25 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:02:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:25.848105
+2025-03-03 17:02:25 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:02:25 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:26 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:26.217438
+2025-03-03 17:02:26 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:26 INFO event_listener.py:52: Created named pipe yasb-93045398-f883-11ef-8d04-d58a6b11842e
+2025-03-03 17:02:26 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-93045398-f883-11ef-8d04-d58a6b11842e
+2025-03-03 17:02:26 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:02:26 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:02:26 DEBUG _windows.py:192: Thread started
+2025-03-03 17:02:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-93045398-f883-11ef-8d04-d58a6b11842e
+2025-03-03 17:02:29 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:02:29 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:02:29 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:29.839512
+2025-03-03 17:02:29 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:02:29 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:30 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:30.203412
+2025-03-03 17:02:30 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:30 INFO event_listener.py:52: Created named pipe yasb-95648f34-f883-11ef-a6c2-d58a6b11842e
+2025-03-03 17:02:30 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-95648f34-f883-11ef-a6c2-d58a6b11842e
+2025-03-03 17:02:30 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:02:30 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:02:30 DEBUG _windows.py:192: Thread started
+2025-03-03 17:02:30 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-95648f34-f883-11ef-a6c2-d58a6b11842e
+2025-03-03 17:02:36 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:02:36 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:02:36 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:36.412854
+2025-03-03 17:02:36 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:02:36 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:36 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:02:36.790877
+2025-03-03 17:02:36 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:02:36 INFO event_listener.py:52: Created named pipe yasb-99517d1f-f883-11ef-90aa-d58a6b11842e
+2025-03-03 17:02:36 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-99517d1f-f883-11ef-90aa-d58a6b11842e
+2025-03-03 17:02:36 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:02:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:02:36 DEBUG _windows.py:192: Thread started
+2025-03-03 17:02:36 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-99517d1f-f883-11ef-90aa-d58a6b11842e
+2025-03-03 17:03:15 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:03:15 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:03:15 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:15.783463
+2025-03-03 17:03:15 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:03:15 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:16 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:16.151516
+2025-03-03 17:03:16 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:16 INFO event_listener.py:52: Created named pipe yasb-b0c7f0f4-f883-11ef-91f0-d58a6b11842e
+2025-03-03 17:03:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b0c7f0f4-f883-11ef-91f0-d58a6b11842e
+2025-03-03 17:03:16 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:03:16 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:03:16 DEBUG _windows.py:192: Thread started
+2025-03-03 17:03:16 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b0c7f0f4-f883-11ef-91f0-d58a6b11842e
+2025-03-03 17:03:22 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:03:22 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:03:23 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:23.081784
+2025-03-03 17:03:23 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:03:23 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:23 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:23.448390
+2025-03-03 17:03:23 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:23 INFO event_listener.py:52: Created named pipe yasb-b5212542-f883-11ef-8bd5-d58a6b11842e
+2025-03-03 17:03:23 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b5212542-f883-11ef-8bd5-d58a6b11842e
+2025-03-03 17:03:23 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:03:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:03:23 DEBUG _windows.py:192: Thread started
+2025-03-03 17:03:23 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b5212542-f883-11ef-8bd5-d58a6b11842e
+2025-03-03 17:03:29 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:03:29 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:03:29 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:29.369462
+2025-03-03 17:03:29 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:03:29 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:29 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:29.733277
+2025-03-03 17:03:29 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:29 INFO event_listener.py:52: Created named pipe yasb-b8e0096b-f883-11ef-94f7-d58a6b11842e
+2025-03-03 17:03:29 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b8e0096b-f883-11ef-94f7-d58a6b11842e
+2025-03-03 17:03:29 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:03:29 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:03:29 DEBUG _windows.py:192: Thread started
+2025-03-03 17:03:29 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b8e0096b-f883-11ef-94f7-d58a6b11842e
+2025-03-03 17:03:33 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:03:34 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:03:34 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:34.240247
+2025-03-03 17:03:34 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:03:34 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:34 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:03:34.597442
+2025-03-03 17:03:34 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:03:34 INFO event_listener.py:52: Created named pipe yasb-bbc63420-f883-11ef-a8ed-d58a6b11842e
+2025-03-03 17:03:34 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-bbc63420-f883-11ef-a8ed-d58a6b11842e
+2025-03-03 17:03:34 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:03:34 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:03:34 DEBUG _windows.py:192: Thread started
+2025-03-03 17:03:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-bbc63420-f883-11ef-a8ed-d58a6b11842e
+2025-03-03 17:04:16 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:04:31 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:05:22 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:05:38 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:06:10 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:06:47 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:09:35 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:09:48 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:12:02 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:12:58 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:13:34 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:13:34.241737
+2025-03-03 17:13:34 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:13:34.598581
+2025-03-03 17:14:12 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:14:44 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:14:48 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:14:52 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:15:23 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:15:23 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:15:23 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:15:23.422183
+2025-03-03 17:15:23 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:15:23 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:15:23 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:15:23.787661
+2025-03-03 17:15:23 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:15:23 INFO event_listener.py:52: Created named pipe yasb-627c7294-f885-11ef-bc6d-d58a6b11842e
+2025-03-03 17:15:23 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-627c7294-f885-11ef-bc6d-d58a6b11842e
+2025-03-03 17:15:23 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:15:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:15:23 DEBUG _windows.py:192: Thread started
+2025-03-03 17:15:23 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-627c7294-f885-11ef-bc6d-d58a6b11842e
+2025-03-03 17:15:32 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:15:32 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:15:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:15:32.403829
+2025-03-03 17:15:32 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:15:32 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:15:32 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:15:32.769092
+2025-03-03 17:15:32 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:15:32 INFO event_listener.py:52: Created named pipe yasb-67d6b967-f885-11ef-8d1c-d58a6b11842e
+2025-03-03 17:15:32 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-67d6b967-f885-11ef-8d1c-d58a6b11842e
+2025-03-03 17:15:32 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:15:32 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:15:32 DEBUG _windows.py:192: Thread started
+2025-03-03 17:15:32 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-67d6b967-f885-11ef-8d1c-d58a6b11842e
+2025-03-03 17:15:58 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:16:04 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:16:12 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:16:14 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:16:23 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:16:27 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:16:36 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:16:40 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:16:40 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:16:40 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:16:40.988429
+2025-03-03 17:16:41 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:16:41 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:16:41 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:16:41.357309
+2025-03-03 17:16:41 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:16:41 INFO event_listener.py:52: Created named pipe yasb-90b936df-f885-11ef-9888-d58a6b11842e
+2025-03-03 17:16:41 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-90b936df-f885-11ef-9888-d58a6b11842e
+2025-03-03 17:16:41 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:16:41 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:16:41 DEBUG _windows.py:192: Thread started
+2025-03-03 17:16:41 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-90b936df-f885-11ef-9888-d58a6b11842e
+2025-03-03 17:16:49 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:17:21 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:19:47 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:19:47 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:19:48 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:19:48.082929
+2025-03-03 17:19:48 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:19:48 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:19:48 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:19:48.460716
+2025-03-03 17:19:48 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:19:48 INFO event_listener.py:52: Created named pipe yasb-003e2a41-f886-11ef-9c13-d58a6b11842e
+2025-03-03 17:19:48 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-003e2a41-f886-11ef-9c13-d58a6b11842e
+2025-03-03 17:19:48 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:19:48 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:19:48 DEBUG _windows.py:192: Thread started
+2025-03-03 17:19:48 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-003e2a41-f886-11ef-9c13-d58a6b11842e
+2025-03-03 17:19:52 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:19:52 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:19:52 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:19:52.456797
+2025-03-03 17:19:52 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:19:52 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 44px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:19:52 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:19:52.836249
+2025-03-03 17:19:52 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 44px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:19:52 INFO event_listener.py:52: Created named pipe yasb-02d9ac5f-f886-11ef-8336-d58a6b11842e
+2025-03-03 17:19:52 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-02d9ac5f-f886-11ef-8336-d58a6b11842e
+2025-03-03 17:19:52 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:19:52 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:19:52 DEBUG _windows.py:192: Thread started
+2025-03-03 17:19:52 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-02d9ac5f-f886-11ef-8336-d58a6b11842e
+2025-03-03 17:19:58 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:19:58 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:19:58 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:19:58.432829
+2025-03-03 17:19:58 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:19:58 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:19:58 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:19:58.800940
+2025-03-03 17:19:58 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:19:58 INFO event_listener.py:52: Created named pipe yasb-0667e32c-f886-11ef-9352-d58a6b11842e
+2025-03-03 17:19:58 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-0667e32c-f886-11ef-9352-d58a6b11842e
+2025-03-03 17:19:58 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:19:58 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:19:58 DEBUG _windows.py:192: Thread started
+2025-03-03 17:19:58 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-0667e32c-f886-11ef-9352-d58a6b11842e
+2025-03-03 17:20:08 ERROR config.py:89: The config file 'C:\Users\Sloth\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- primary-bar:
+  - blur_effect:
+    - round_corners_type:
+      - unallowed value square
+
+2025-03-03 17:20:08 ERROR config.py:89: The config file 'C:\Users\Sloth\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- primary-bar:
+  - blur_effect:
+    - round_corners_type:
+      - unallowed value square
+
+2025-03-03 17:20:08 ERROR config.py:89: The config file 'C:\Users\Sloth\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- primary-bar:
+  - blur_effect:
+    - round_corners_type:
+      - unallowed value square
+
+2025-03-03 17:20:25 INFO tray.py:241: Reloading Application...
+2025-03-03 17:20:25 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:20:25 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:20:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:20:25.606898
+2025-03-03 17:20:25 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:20:25 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:20:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:20:25.975335
+2025-03-03 17:20:25 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:20:26 INFO event_listener.py:52: Created named pipe yasb-169ad38b-f886-11ef-b6ff-d58a6b11842e
+2025-03-03 17:20:26 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-169ad38b-f886-11ef-b6ff-d58a6b11842e
+2025-03-03 17:20:26 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:20:26 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:20:26 DEBUG _windows.py:192: Thread started
+2025-03-03 17:20:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-169ad38b-f886-11ef-b6ff-d58a6b11842e
+2025-03-03 17:22:07 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:22:07 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:22:07 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:07.421624
+2025-03-03 17:22:07 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:22:07 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:22:07 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:07.784722
+2025-03-03 17:22:07 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:22:07 INFO event_listener.py:52: Created named pipe yasb-53493b21-f886-11ef-8ada-d58a6b11842e
+2025-03-03 17:22:07 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-53493b21-f886-11ef-8ada-d58a6b11842e
+2025-03-03 17:22:07 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:22:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:22:07 DEBUG _windows.py:192: Thread started
+2025-03-03 17:22:07 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-53493b21-f886-11ef-8ada-d58a6b11842e
+2025-03-03 17:22:10 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:22:10 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:22:10 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:10.832968
+2025-03-03 17:22:10 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:22:10 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:22:11 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:11.199379
+2025-03-03 17:22:11 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:22:11 INFO event_listener.py:52: Created named pipe yasb-5552815a-f886-11ef-9c85-d58a6b11842e
+2025-03-03 17:22:11 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-5552815a-f886-11ef-9c85-d58a6b11842e
+2025-03-03 17:22:11 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:22:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:22:11 DEBUG _windows.py:192: Thread started
+2025-03-03 17:22:11 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-5552815a-f886-11ef-9c85-d58a6b11842e
+2025-03-03 17:22:21 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:22:21 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:22:21 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:21.472918
+2025-03-03 17:22:21 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:22:21 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:21.793707
+2025-03-03 17:22:21 INFO event_listener.py:52: Created named pipe yasb-5b9d9ed9-f886-11ef-b740-d58a6b11842e
+2025-03-03 17:22:21 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-5b9d9ed9-f886-11ef-b740-d58a6b11842e
+2025-03-03 17:22:21 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:22:21 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:22:21 DEBUG _windows.py:192: Thread started
+2025-03-03 17:22:21 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-5b9d9ed9-f886-11ef-b740-d58a6b11842e
+2025-03-03 17:22:24 INFO log.py:21: Yasb v1.6.4
+2025-03-03 17:22:24 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-03 17:22:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:24.770094
+2025-03-03 17:22:24 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-03 17:22:24 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:22:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:22:25.135733
+2025-03-03 17:22:25 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-03 17:22:25 INFO event_listener.py:52: Created named pipe yasb-5da0c211-f886-11ef-b0db-d58a6b11842e
+2025-03-03 17:22:25 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-5da0c211-f886-11ef-b0db-d58a6b11842e
+2025-03-03 17:22:25 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-03 17:22:25 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-03 17:22:25 DEBUG _windows.py:192: Thread started
+2025-03-03 17:22:25 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-5da0c211-f886-11ef-b0db-d58a6b11842e
+2025-03-03 17:22:50 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:22:55 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:23:06 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-03 17:32:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:32:24.760105
+2025-03-03 17:32:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:32:25.128775
+2025-03-03 17:42:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:42:24.712772
+2025-03-03 17:42:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:42:25.086477
+2025-03-03 17:52:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:52:24.668930
+2025-03-03 17:52:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 17:52:25.051529
+2025-03-03 18:02:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 18:02:24.658909
+2025-03-03 18:02:25 INFO weather.py:367: Fetched new weather data at 2025-03-03 18:02:25.016880
+2025-03-03 18:12:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 18:12:24.622674
+2025-03-03 18:12:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 18:12:24.995981
+2025-03-03 18:22:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 18:22:24.593813
+2025-03-03 18:22:24 INFO weather.py:367: Fetched new weather data at 2025-03-03 18:22:24.965827
+2025-03-03 18:31:35 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-03 18:31:35 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-03 18:31:40 INFO tray.py:247: Exiting Application...
+2025-03-03 18:31:40 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-03 18:31:40 DEBUG _windows.py:201: Exiting thread
+2025-03-03 18:31:40 DEBUG _windows.py:75: Closing
+2025-03-04 12:49:26 INFO log.py:21: Yasb v1.6.4
+2025-03-04 12:49:28 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-04 12:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 12:49:35.027355
+2025-03-04 12:49:35 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-04 12:49:36 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 12:49:36 INFO weather.py:367: Fetched new weather data at 2025-03-04 12:49:36.706581
+2025-03-04 12:49:36 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 12:49:37 INFO event_listener.py:52: Created named pipe yasb-6bb05cf5-f929-11ef-9071-e23e529e442b
+2025-03-04 12:49:37 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6bb05cf5-f929-11ef-9071-e23e529e442b
+2025-03-04 12:49:37 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-04 12:49:37 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-04 12:49:37 DEBUG _windows.py:192: Thread started
+2025-03-04 12:49:37 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-04 12:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 12:59:35.165329
+2025-03-04 12:59:36 INFO weather.py:367: Fetched new weather data at 2025-03-04 12:59:36.835104
+2025-03-04 13:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:09:35.293335
+2025-03-04 13:09:36 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:09:36.973862
+2025-03-04 13:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:19:35.406564
+2025-03-04 13:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:19:37.096487
+2025-03-04 13:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:29:35.492779
+2025-03-04 13:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:29:37.203081
+2025-03-04 13:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:39:35.568300
+2025-03-04 13:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:39:37.267103
+2025-03-04 13:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:49:35.634109
+2025-03-04 13:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:49:37.327852
+2025-03-04 13:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:59:35.677985
+2025-03-04 13:59:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 13:59:37.385910
+2025-03-04 14:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:09:35.720324
+2025-03-04 14:09:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:09:37.414865
+2025-03-04 14:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:19:35.743627
+2025-03-04 14:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:19:37.458229
+2025-03-04 14:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:29:35.770489
+2025-03-04 14:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:29:37.477267
+2025-03-04 14:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:39:35.793763
+2025-03-04 14:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:39:37.501018
+2025-03-04 14:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:49:35.818046
+2025-03-04 14:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:49:37.528882
+2025-03-04 14:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:59:35.832263
+2025-03-04 14:59:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 14:59:37.541894
+2025-03-04 15:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:09:35.843572
+2025-03-04 15:09:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:09:37.553121
+2025-03-04 15:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:19:35.853620
+2025-03-04 15:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:19:37.562489
+2025-03-04 15:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:29:35.868943
+2025-03-04 15:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:29:37.574817
+2025-03-04 15:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:39:35.866913
+2025-03-04 15:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:39:37.577152
+2025-03-04 15:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:49:35.877345
+2025-03-04 15:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:49:37.587369
+2025-03-04 15:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:59:35.878181
+2025-03-04 15:59:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 15:59:37.591365
+2025-03-04 16:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:09:35.878977
+2025-03-04 16:09:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:09:37.587985
+2025-03-04 16:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:19:35.887382
+2025-03-04 16:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:19:37.584981
+2025-03-04 16:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:29:35.893779
+2025-03-04 16:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:29:37.601150
+2025-03-04 16:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:39:35.888141
+2025-03-04 16:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:39:37.597605
+2025-03-04 16:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:49:35.889764
+2025-03-04 16:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:49:37.605200
+2025-03-04 16:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:59:35.890811
+2025-03-04 16:59:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 16:59:37.595923
+2025-03-04 17:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:09:35.896280
+2025-03-04 17:09:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:09:37.603458
+2025-03-04 17:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:19:35.906228
+2025-03-04 17:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:19:37.600161
+2025-03-04 17:23:47 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6bb05cf5-f929-11ef-9071-e23e529e442b
+2025-03-04 17:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:29:35.902529
+2025-03-04 17:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:29:37.600282
+2025-03-04 17:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:39:35.907702
+2025-03-04 17:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:39:37.602497
+2025-03-04 17:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:49:35.893952
+2025-03-04 17:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:49:37.597686
+2025-03-04 17:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:59:35.907236
+2025-03-04 17:59:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 17:59:37.607734
+2025-03-04 18:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:09:35.906484
+2025-03-04 18:09:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:09:37.612826
+2025-03-04 18:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:19:35.901646
+2025-03-04 18:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:19:37.604986
+2025-03-04 18:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:29:35.896142
+2025-03-04 18:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:29:37.610574
+2025-03-04 18:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:39:35.904895
+2025-03-04 18:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:39:37.605243
+2025-03-04 18:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:49:35.908222
+2025-03-04 18:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:49:37.599461
+2025-03-04 18:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:59:35.896501
+2025-03-04 18:59:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 18:59:37.612183
+2025-03-04 19:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:09:35.898262
+2025-03-04 19:09:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:09:37.613745
+2025-03-04 19:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:19:35.904482
+2025-03-04 19:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:19:37.613117
+2025-03-04 19:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:29:35.896965
+2025-03-04 19:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:29:37.614624
+2025-03-04 19:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:39:35.911137
+2025-03-04 19:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:39:37.628973
+2025-03-04 19:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:49:35.900626
+2025-03-04 19:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:49:37.621184
+2025-03-04 19:59:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:59:35.899530
+2025-03-04 19:59:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 19:59:37.617567
+2025-03-04 20:09:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:09:35.901498
+2025-03-04 20:09:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:09:37.617508
+2025-03-04 20:19:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:19:35.896793
+2025-03-04 20:19:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:19:37.619798
+2025-03-04 20:29:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:29:35.903784
+2025-03-04 20:29:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:29:37.621668
+2025-03-04 20:39:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:39:35.907645
+2025-03-04 20:39:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:39:37.621660
+2025-03-04 20:49:35 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:49:35.911819
+2025-03-04 20:49:37 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:49:37.624883
+2025-03-04 20:59:07 INFO log.py:21: Yasb v1.6.4
+2025-03-04 20:59:08 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-04 20:59:13 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:59:13.547425
+2025-03-04 20:59:13 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-04 20:59:14 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 20:59:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:59:18.608457
+2025-03-04 20:59:18 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 20:59:19 INFO event_listener.py:52: Created named pipe yasb-d4ae3459-f96d-11ef-8fe2-e23e529e442b
+2025-03-04 20:59:19 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d4ae3459-f96d-11ef-8fe2-e23e529e442b
+2025-03-04 20:59:19 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-04 20:59:19 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-04 20:59:19 DEBUG _windows.py:192: Thread started
+2025-03-04 20:59:19 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d4ae3459-f96d-11ef-8fe2-e23e529e442b
+2025-03-04 20:59:54 INFO log.py:21: Yasb v1.6.4
+2025-03-04 20:59:54 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-04 20:59:55 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:59:55.038837
+2025-03-04 20:59:55 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-04 20:59:55 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 34px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 20:59:55 INFO weather.py:367: Fetched new weather data at 2025-03-04 20:59:55.426441
+2025-03-04 20:59:55 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 34px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 20:59:55 INFO event_listener.py:52: Created named pipe yasb-eaa0a8ea-f96d-11ef-97d7-e23e529e442b
+2025-03-04 20:59:55 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-eaa0a8ea-f96d-11ef-97d7-e23e529e442b
+2025-03-04 20:59:55 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-04 20:59:55 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-04 20:59:55 DEBUG _windows.py:192: Thread started
+2025-03-04 20:59:55 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-eaa0a8ea-f96d-11ef-97d7-e23e529e442b
+2025-03-04 21:00:01 INFO log.py:21: Yasb v1.6.4
+2025-03-04 21:00:01 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-04 21:00:01 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:00:01.674722
+2025-03-04 21:00:01 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-04 21:00:01 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 29px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 21:00:02 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:00:02.066280
+2025-03-04 21:00:02 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 29px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 21:00:02 INFO event_listener.py:52: Created named pipe yasb-ee956929-f96d-11ef-9dcf-e23e529e442b
+2025-03-04 21:00:02 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ee956929-f96d-11ef-9dcf-e23e529e442b
+2025-03-04 21:00:02 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-04 21:00:02 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-04 21:00:02 DEBUG _windows.py:192: Thread started
+2025-03-04 21:00:02 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ee956929-f96d-11ef-9dcf-e23e529e442b
+2025-03-04 21:00:07 INFO log.py:21: Yasb v1.6.4
+2025-03-04 21:00:07 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-04 21:00:07 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:00:07.586079
+2025-03-04 21:00:07 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-04 21:00:07 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 34px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 21:00:07 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:00:07.980855
+2025-03-04 21:00:07 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 34px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 21:00:08 INFO event_listener.py:52: Created named pipe yasb-f21e0364-f96d-11ef-82ac-e23e529e442b
+2025-03-04 21:00:08 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f21e0364-f96d-11ef-82ac-e23e529e442b
+2025-03-04 21:00:08 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-04 21:00:08 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-04 21:00:08 DEBUG _windows.py:192: Thread started
+2025-03-04 21:00:08 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f21e0364-f96d-11ef-82ac-e23e529e442b
+2025-03-04 21:00:17 INFO log.py:21: Yasb v1.6.4
+2025-03-04 21:00:17 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-04 21:00:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:00:17.790128
+2025-03-04 21:00:17 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-04 21:00:17 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 21:00:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:00:18.187321
+2025-03-04 21:00:18 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-04 21:00:18 INFO event_listener.py:52: Created named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 21:00:18 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 21:00:18 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-04 21:00:18 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-04 21:00:18 DEBUG _windows.py:192: Thread started
+2025-03-04 21:00:18 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 21:10:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:10:17.793590
+2025-03-04 21:10:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:10:18.184098
+2025-03-04 21:20:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:20:17.797015
+2025-03-04 21:20:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:20:18.185769
+2025-03-04 21:30:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:30:17.794707
+2025-03-04 21:30:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:30:18.183080
+2025-03-04 21:40:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:40:17.790309
+2025-03-04 21:40:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:40:18.193789
+2025-03-04 21:50:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:50:17.816721
+2025-03-04 21:50:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 21:50:18.207422
+2025-03-04 22:00:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:00:17.832682
+2025-03-04 22:00:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:00:18.221168
+2025-03-04 22:10:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:10:17.846440
+2025-03-04 22:10:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:10:18.238949
+2025-03-04 22:20:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:20:17.864294
+2025-03-04 22:20:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:20:18.244810
+2025-03-04 22:30:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:30:17.876857
+2025-03-04 22:30:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:30:18.267218
+2025-03-04 22:40:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:40:17.870489
+2025-03-04 22:40:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:40:18.274816
+2025-03-04 22:48:24 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-04 22:48:24 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-04 22:48:29 INFO event_listener.py:52: Created named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 22:48:29 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 22:48:29 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 22:48:37 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-04 22:48:37 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-04 22:48:42 INFO event_listener.py:52: Created named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 22:48:42 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 22:48:42 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-04 22:48:52 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-04 22:50:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:50:17.882928
+2025-03-04 22:50:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 22:50:18.271274
+2025-03-04 23:00:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:00:17.883109
+2025-03-04 23:00:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:00:18.287642
+2025-03-04 23:10:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:10:17.887866
+2025-03-04 23:10:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:10:18.286788
+2025-03-04 23:20:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:20:17.895459
+2025-03-04 23:20:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:20:18.297558
+2025-03-04 23:30:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:30:17.905052
+2025-03-04 23:30:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:30:18.312347
+2025-03-04 23:40:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:40:17.909697
+2025-03-04 23:40:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:40:18.298696
+2025-03-04 23:50:17 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:50:17.932200
+2025-03-04 23:50:18 INFO weather.py:367: Fetched new weather data at 2025-03-04 23:50:18.307005
+2025-03-05 00:00:17 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:00:17.934763
+2025-03-05 00:00:18 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:00:18.298575
+2025-03-05 00:10:17 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:10:17.926135
+2025-03-05 00:10:18 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:10:18.304113
+2025-03-05 00:20:17 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:20:17.927748
+2025-03-05 00:20:18 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:20:18.302055
+2025-03-05 00:30:17 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:30:17.926744
+2025-03-05 00:30:18 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:30:18.302581
+2025-03-05 00:40:17 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:40:17.930275
+2025-03-05 00:40:18 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:40:18.306612
+2025-03-05 00:50:17 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:50:17.929594
+2025-03-05 00:50:18 INFO weather.py:367: Fetched new weather data at 2025-03-05 00:50:18.319859
+2025-03-05 01:00:17 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:00:17.942125
+2025-03-05 01:00:18 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:00:18.310392
+2025-03-05 01:04:34 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-05 01:04:34 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-05 01:04:39 INFO event_listener.py:52: Created named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-05 01:04:39 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-05 01:04:39 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-05 01:04:49 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f831a3db-f96d-11ef-be57-e23e529e442b
+2025-03-05 01:04:51 INFO tray.py:241: Reloading Application...
+2025-03-05 01:04:52 INFO log.py:21: Yasb v1.6.4
+2025-03-05 01:04:52 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-05 01:04:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:04:52.400476
+2025-03-05 01:04:52 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-05 01:04:52 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 01:04:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:04:52.852889
+2025-03-05 01:04:52 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 01:04:52 INFO event_listener.py:52: Created named pipe yasb-22f8ec7e-f990-11ef-bd79-e23e529e442b
+2025-03-05 01:04:52 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-22f8ec7e-f990-11ef-bd79-e23e529e442b
+2025-03-05 01:04:52 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-05 01:04:52 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-05 01:04:52 DEBUG _windows.py:192: Thread started
+2025-03-05 01:04:53 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-22f8ec7e-f990-11ef-bd79-e23e529e442b
+2025-03-05 01:14:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:14:52.388485
+2025-03-05 01:14:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:14:52.840911
+2025-03-05 01:24:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:24:52.394478
+2025-03-05 01:24:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:24:52.843526
+2025-03-05 01:34:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:34:52.389030
+2025-03-05 01:34:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:34:52.857284
+2025-03-05 01:44:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:44:52.398403
+2025-03-05 01:44:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:44:52.865471
+2025-03-05 01:54:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:54:52.397964
+2025-03-05 01:54:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 01:54:52.865362
+2025-03-05 02:04:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 02:04:52.394609
+2025-03-05 02:04:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 02:04:52.861891
+2025-03-05 02:14:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 02:14:52.393614
+2025-03-05 02:14:52 INFO weather.py:367: Fetched new weather data at 2025-03-05 02:14:52.875736
+2025-03-05 02:17:17 INFO tray.py:247: Exiting Application...
+2025-03-05 02:17:17 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-05 02:17:17 DEBUG _windows.py:201: Exiting thread
+2025-03-05 02:17:17 DEBUG _windows.py:75: Closing
+2025-03-05 13:05:12 INFO log.py:21: Yasb v1.6.4
+2025-03-05 13:05:16 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-05 13:05:28 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:05:28.923706
+2025-03-05 13:05:29 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-05 13:05:30 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 13:05:35 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:05:35.751890
+2025-03-05 13:05:35 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 13:05:36 INFO event_listener.py:52: Created named pipe yasb-d1bb3187-f9f4-11ef-b46c-dff9b186723c
+2025-03-05 13:05:36 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d1bb3187-f9f4-11ef-b46c-dff9b186723c
+2025-03-05 13:05:36 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-05 13:05:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-05 13:05:36 DEBUG _windows.py:192: Thread started
+2025-03-05 13:05:39 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-05 13:07:46 INFO bar_manager.py:66: Screens updated. Re-initialising all bars.
+2025-03-05 13:07:56 INFO log.py:21: Yasb v1.6.4
+2025-03-05 13:07:56 ERROR main.py:82: Another instance of the YASB is already running.
+2025-03-05 13:13:44 INFO log.py:21: Yasb v1.6.4
+2025-03-05 13:13:44 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-05 13:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:13:46.289942
+2025-03-05 13:13:46 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-05 13:13:46 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 13:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:13:46.801029
+2025-03-05 13:13:46 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 13:13:46 INFO event_listener.py:52: Created named pipe yasb-f66c4276-f9f5-11ef-8e6f-dff9b186723c
+2025-03-05 13:13:46 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f66c4276-f9f5-11ef-8e6f-dff9b186723c
+2025-03-05 13:13:46 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-05 13:13:46 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-05 13:13:46 DEBUG _windows.py:192: Thread started
+2025-03-05 13:13:47 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f66c4276-f9f5-11ef-8e6f-dff9b186723c
+2025-03-05 13:21:19 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-05 13:21:19 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-05 13:21:24 INFO event_listener.py:52: Created named pipe yasb-f66c4276-f9f5-11ef-8e6f-dff9b186723c
+2025-03-05 13:21:24 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f66c4276-f9f5-11ef-8e6f-dff9b186723c
+2025-03-05 13:21:24 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-05 13:21:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f66c4276-f9f5-11ef-8e6f-dff9b186723c
+2025-03-05 13:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:23:46.300869
+2025-03-05 13:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:23:46.815883
+2025-03-05 13:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:33:46.304970
+2025-03-05 13:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:33:46.802483
+2025-03-05 13:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:43:46.314452
+2025-03-05 13:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:43:46.812976
+2025-03-05 13:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:53:46.306831
+2025-03-05 13:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 13:53:46.805928
+2025-03-05 14:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:03:46.312731
+2025-03-05 14:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:03:46.808993
+2025-03-05 14:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:13:46.301466
+2025-03-05 14:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:13:46.801005
+2025-03-05 14:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:23:46.311314
+2025-03-05 14:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:23:46.811216
+2025-03-05 14:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:33:46.301135
+2025-03-05 14:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:33:46.807925
+2025-03-05 14:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:43:46.307730
+2025-03-05 14:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:43:46.808670
+2025-03-05 14:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:53:46.305162
+2025-03-05 14:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 14:53:46.801528
+2025-03-05 15:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:03:46.309918
+2025-03-05 15:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:03:46.811754
+2025-03-05 15:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:13:46.305884
+2025-03-05 15:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:13:46.809136
+2025-03-05 15:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:23:46.308160
+2025-03-05 15:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:23:46.812080
+2025-03-05 15:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:33:46.311014
+2025-03-05 15:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:33:46.813193
+2025-03-05 15:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:43:46.305196
+2025-03-05 15:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:43:46.802281
+2025-03-05 15:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:53:46.307404
+2025-03-05 15:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 15:53:46.808551
+2025-03-05 16:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:03:46.301173
+2025-03-05 16:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:03:46.808338
+2025-03-05 16:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:13:46.316119
+2025-03-05 16:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:13:46.803575
+2025-03-05 16:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:23:46.304862
+2025-03-05 16:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:23:46.804791
+2025-03-05 16:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:33:46.307540
+2025-03-05 16:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:33:46.807866
+2025-03-05 16:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:43:46.308011
+2025-03-05 16:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:43:46.808366
+2025-03-05 16:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:53:46.311896
+2025-03-05 16:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 16:53:46.804700
+2025-03-05 17:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:03:46.305839
+2025-03-05 17:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:03:46.806296
+2025-03-05 17:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:13:46.303532
+2025-03-05 17:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:13:46.805164
+2025-03-05 17:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:23:46.307685
+2025-03-05 17:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:23:46.809141
+2025-03-05 17:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:33:46.302674
+2025-03-05 17:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:33:46.815639
+2025-03-05 17:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:43:46.314399
+2025-03-05 17:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:43:46.811273
+2025-03-05 17:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:53:46.301431
+2025-03-05 17:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 17:53:46.801966
+2025-03-05 18:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:03:46.303533
+2025-03-05 18:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:03:46.802807
+2025-03-05 18:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:13:46.301964
+2025-03-05 18:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:13:46.800835
+2025-03-05 18:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:23:46.311955
+2025-03-05 18:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:23:46.811850
+2025-03-05 18:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:33:46.315110
+2025-03-05 18:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:33:46.814975
+2025-03-05 18:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:43:46.306892
+2025-03-05 18:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:43:46.808577
+2025-03-05 18:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:53:46.303400
+2025-03-05 18:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 18:53:46.816042
+2025-03-05 19:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:03:46.301562
+2025-03-05 19:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:03:46.801993
+2025-03-05 19:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:13:46.300701
+2025-03-05 19:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:13:46.808034
+2025-03-05 19:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:23:46.314824
+2025-03-05 19:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:23:46.814098
+2025-03-05 19:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:33:46.306969
+2025-03-05 19:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:33:46.807621
+2025-03-05 19:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:43:46.307294
+2025-03-05 19:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:43:46.806119
+2025-03-05 19:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:53:46.304460
+2025-03-05 19:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 19:53:46.802236
+2025-03-05 20:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:03:46.308461
+2025-03-05 20:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:03:46.811482
+2025-03-05 20:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:13:46.310921
+2025-03-05 20:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:13:46.810519
+2025-03-05 20:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:23:46.306625
+2025-03-05 20:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:23:46.808972
+2025-03-05 20:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:33:46.301587
+2025-03-05 20:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:33:46.803027
+2025-03-05 20:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:43:46.304127
+2025-03-05 20:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:43:46.808210
+2025-03-05 20:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:53:46.300865
+2025-03-05 20:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 20:53:46.801701
+2025-03-05 21:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:03:46.313739
+2025-03-05 21:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:03:46.811334
+2025-03-05 21:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:13:46.301627
+2025-03-05 21:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:13:46.814597
+2025-03-05 21:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:23:46.300552
+2025-03-05 21:23:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:23:46.814850
+2025-03-05 21:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:33:46.311073
+2025-03-05 21:33:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:33:46.801794
+2025-03-05 21:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:43:46.314701
+2025-03-05 21:43:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:43:46.813510
+2025-03-05 21:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:53:46.306839
+2025-03-05 21:53:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 21:53:46.806121
+2025-03-05 22:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:03:46.300822
+2025-03-05 22:03:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:03:46.816482
+2025-03-05 22:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:13:46.138152
+2025-03-05 22:13:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:13:46.139153
+2025-03-05 22:17:37 INFO tray.py:241: Reloading Application...
+2025-03-05 22:17:39 INFO log.py:21: Yasb v1.6.4
+2025-03-05 22:17:39 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-05 22:17:40 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:17:40.789446
+2025-03-05 22:17:40 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-05 22:17:41 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 22:17:41 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:17:41.333599
+2025-03-05 22:17:41 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-05 22:17:41 INFO event_listener.py:52: Created named pipe yasb-f221a575-fa41-11ef-b2d1-dff9b186723c
+2025-03-05 22:17:41 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f221a575-fa41-11ef-b2d1-dff9b186723c
+2025-03-05 22:17:41 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-05 22:17:41 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-05 22:17:41 DEBUG _windows.py:192: Thread started
+2025-03-05 22:17:41 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f221a575-fa41-11ef-b2d1-dff9b186723c
+2025-03-05 22:27:43 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:27:43.128938
+2025-03-05 22:27:43 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:27:43.128938
+2025-03-05 22:37:40 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:37:40.794346
+2025-03-05 22:37:41 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:37:41.343384
+2025-03-05 22:47:44 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:47:44.070456
+2025-03-05 22:47:44 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:47:44.071455
+2025-03-05 22:57:44 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:57:44.489534
+2025-03-05 22:57:44 INFO weather.py:367: Fetched new weather data at 2025-03-05 22:57:44.490624
+2025-03-05 23:07:42 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:07:42.197586
+2025-03-05 23:07:42 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:07:42.197586
+2025-03-05 23:17:45 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:17:45.020946
+2025-03-05 23:17:45 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:17:45.021948
+2025-03-05 23:27:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:27:46.470163
+2025-03-05 23:27:46 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:27:46.471163
+2025-03-05 23:37:40 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:37:40.787427
+2025-03-05 23:37:41 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:37:41.347539
+2025-03-05 23:47:40 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:47:40.802108
+2025-03-05 23:47:41 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:47:41.349180
+2025-03-05 23:57:40 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:57:40.801463
+2025-03-05 23:57:41 INFO weather.py:367: Fetched new weather data at 2025-03-05 23:57:41.347559
+2025-03-06 00:07:40 INFO weather.py:367: Fetched new weather data at 2025-03-06 00:07:40.814443
+2025-03-06 00:07:41 INFO weather.py:367: Fetched new weather data at 2025-03-06 00:07:41.359350
+2025-03-06 00:17:40 INFO weather.py:367: Fetched new weather data at 2025-03-06 00:17:40.806619
+2025-03-06 00:17:41 INFO weather.py:367: Fetched new weather data at 2025-03-06 00:17:41.352597
+2025-03-06 00:27:40 INFO weather.py:367: Fetched new weather data at 2025-03-06 00:27:40.805205
+2025-03-06 00:27:41 INFO weather.py:367: Fetched new weather data at 2025-03-06 00:27:41.350524
+2025-03-06 00:34:00 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-06 00:34:00 DEBUG _windows.py:201: Exiting thread
+2025-03-06 00:34:00 DEBUG _windows.py:75: Closing
+2025-03-06 06:36:21 INFO log.py:21: Yasb v1.6.4
+2025-03-06 06:36:26 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-06 06:38:40 INFO weather.py:367: Fetched new weather data at 2025-03-06 06:38:40.132392
+2025-03-06 06:38:40 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-06 06:39:08 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-06 06:39:10 INFO weather.py:367: Fetched new weather data at 2025-03-06 06:39:10.887738
+2025-03-06 06:39:10 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-06 06:39:11 INFO event_listener.py:52: Created named pipe yasb-00e3e967-fa88-11ef-800c-c577ce8d7e46
+2025-03-06 06:39:11 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-00e3e967-fa88-11ef-800c-c577ce8d7e46
+2025-03-06 06:39:12 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-06 06:39:12 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-06 06:39:12 DEBUG _windows.py:192: Thread started
+2025-03-06 06:39:13 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-06 06:48:40 INFO weather.py:367: Fetched new weather data at 2025-03-06 06:48:40.138968
+2025-03-06 06:49:10 INFO weather.py:367: Fetched new weather data at 2025-03-06 06:49:10.882084
+2025-03-06 06:49:56 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-00e3e967-fa88-11ef-800c-c577ce8d7e46
+2025-03-06 06:58:40 INFO weather.py:367: Fetched new weather data at 2025-03-06 06:58:40.144735
+2025-03-06 06:59:10 INFO weather.py:367: Fetched new weather data at 2025-03-06 06:59:10.885896
+2025-03-06 07:08:40 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:08:40.149035
+2025-03-06 07:09:10 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:09:10.892733
+2025-03-06 07:18:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:18:39.019131
+2025-03-06 07:19:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:19:09.764244
+2025-03-06 07:28:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:28:39.031801
+2025-03-06 07:29:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:29:09.754155
+2025-03-06 07:38:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:38:39.017976
+2025-03-06 07:39:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:39:09.757185
+2025-03-06 07:48:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:48:39.030883
+2025-03-06 07:49:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:49:09.762615
+2025-03-06 07:58:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:58:39.021348
+2025-03-06 07:59:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 07:59:09.752175
+2025-03-06 08:08:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:08:39.020423
+2025-03-06 08:09:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:09:09.765462
+2025-03-06 08:18:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:18:39.030894
+2025-03-06 08:19:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:19:09.751699
+2025-03-06 08:28:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:28:39.031228
+2025-03-06 08:29:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:29:09.763383
+2025-03-06 08:38:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:38:39.023777
+2025-03-06 08:39:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:39:09.761617
+2025-03-06 08:41:38 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-06 08:41:38 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-06 08:41:43 INFO event_listener.py:52: Created named pipe yasb-00e3e967-fa88-11ef-800c-c577ce8d7e46
+2025-03-06 08:41:43 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-00e3e967-fa88-11ef-800c-c577ce8d7e46
+2025-03-06 08:41:43 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-06 08:41:53 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-00e3e967-fa88-11ef-800c-c577ce8d7e46
+2025-03-06 08:48:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:48:39.020731
+2025-03-06 08:49:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:49:09.753034
+2025-03-06 08:58:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:58:39.020353
+2025-03-06 08:59:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 08:59:09.753623
+2025-03-06 09:08:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:08:39.030597
+2025-03-06 09:09:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:09:09.752469
+2025-03-06 09:18:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:18:39.023087
+2025-03-06 09:19:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:19:09.755460
+2025-03-06 09:28:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:28:39.020156
+2025-03-06 09:29:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:29:09.756531
+2025-03-06 09:38:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:38:39.023232
+2025-03-06 09:39:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:39:09.760551
+2025-03-06 09:48:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:48:39.017706
+2025-03-06 09:49:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:49:09.763303
+2025-03-06 09:58:39 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:58:39.025642
+2025-03-06 09:59:09 INFO weather.py:367: Fetched new weather data at 2025-03-06 09:59:09.760825
+2025-03-06 10:02:47 INFO bar.py:98: Screen geometry changed. Updating position for bar (primary-bar_LG ULTRAGEAR_994fbc46)
+2025-03-06 10:02:47 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1680, Screen Height: 1050]
+2025-03-06 10:02:47 INFO bar.py:98: Screen geometry changed. Updating position for bar (primary-bar_ASUS PA238_ef6dc12a)
+2025-03-06 10:02:47 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1680, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-06 10:03:28 INFO bar.py:98: Screen geometry changed. Updating position for bar (primary-bar_LG ULTRAGEAR_994fbc46)
+2025-03-06 10:03:28 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-06 10:03:28 INFO bar.py:98: Screen geometry changed. Updating position for bar (primary-bar_ASUS PA238_ef6dc12a)
+2025-03-06 10:03:28 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-06 10:03:38 INFO tray.py:247: Exiting Application...
+2025-03-06 10:03:38 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-06 10:03:38 DEBUG _windows.py:201: Exiting thread
+2025-03-06 10:03:38 DEBUG _windows.py:75: Closing
+2025-03-10 09:11:48 INFO log.py:21: Yasb v1.6.4
+2025-03-10 09:11:53 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 09:12:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:12:02.044827
+2025-03-10 09:12:02 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-10 09:12:03 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 09:12:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:12:04.548117
+2025-03-10 09:12:04 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 09:12:05 INFO event_listener.py:52: Created named pipe yasb-a4b910df-fdb9-11ef-bc71-047c16569870
+2025-03-10 09:12:05 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-a4b910df-fdb9-11ef-bc71-047c16569870
+2025-03-10 09:12:05 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 09:12:05 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 09:12:05 DEBUG _windows.py:192: Thread started
+2025-03-10 09:12:06 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-10 09:17:08 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-a4b910df-fdb9-11ef-bc71-047c16569870
+2025-03-10 09:22:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:22:02.037908
+2025-03-10 09:22:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:22:04.540768
+2025-03-10 09:32:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:32:02.064776
+2025-03-10 09:32:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:32:04.541917
+2025-03-10 09:42:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:42:02.052851
+2025-03-10 09:42:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:42:04.546363
+2025-03-10 09:52:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:52:02.054072
+2025-03-10 09:52:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 09:52:04.541034
+2025-03-10 10:02:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:02:02.056595
+2025-03-10 10:02:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:02:04.548708
+2025-03-10 10:12:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:12:02.053544
+2025-03-10 10:12:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:12:04.550035
+2025-03-10 10:22:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:22:02.057772
+2025-03-10 10:22:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:22:04.556425
+2025-03-10 10:32:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:32:02.056904
+2025-03-10 10:32:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:32:04.550965
+2025-03-10 10:42:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:42:02.064279
+2025-03-10 10:42:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:42:04.553675
+2025-03-10 10:52:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:52:02.051646
+2025-03-10 10:52:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 10:52:04.561844
+2025-03-10 11:02:02 INFO weather.py:367: Fetched new weather data at 2025-03-10 11:02:02.059645
+2025-03-10 11:02:04 INFO weather.py:367: Fetched new weather data at 2025-03-10 11:02:04.551045
+2025-03-10 11:03:17 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-10 11:03:17 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-10 11:03:19 INFO tray.py:247: Exiting Application...
+2025-03-10 11:03:19 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-10 11:03:19 DEBUG _windows.py:201: Exiting thread
+2025-03-10 11:03:19 DEBUG _windows.py:75: Closing
+2025-03-10 15:38:43 INFO log.py:21: Yasb v1.6.4
+2025-03-10 15:38:45 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 15:38:50 INFO weather.py:367: Fetched new weather data at 2025-03-10 15:38:50.982009
+2025-03-10 15:38:51 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-10 15:38:52 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 15:38:55 INFO weather.py:367: Fetched new weather data at 2025-03-10 15:38:55.643075
+2025-03-10 15:38:55 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 15:38:56 INFO event_listener.py:52: Created named pipe yasb-af9fadcc-fdef-11ef-a860-047c16569870
+2025-03-10 15:38:56 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-af9fadcc-fdef-11ef-a860-047c16569870
+2025-03-10 15:38:56 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 15:38:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 15:38:56 DEBUG _windows.py:192: Thread started
+2025-03-10 15:38:56 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-af9fadcc-fdef-11ef-a860-047c16569870
+2025-03-10 15:48:50 INFO weather.py:367: Fetched new weather data at 2025-03-10 15:48:50.973416
+2025-03-10 15:48:55 INFO weather.py:367: Fetched new weather data at 2025-03-10 15:48:55.633986
+2025-03-10 15:58:50 INFO weather.py:367: Fetched new weather data at 2025-03-10 15:58:50.984249
+2025-03-10 15:58:55 INFO weather.py:367: Fetched new weather data at 2025-03-10 15:58:55.631136
+2025-03-10 16:05:08 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:05:32 INFO log.py:21: Yasb v1.6.4
+2025-03-10 16:05:32 ERROR main.py:82: Another instance of the YASB is already running.
+2025-03-10 16:05:49 INFO log.py:21: Yasb v1.6.4
+2025-03-10 16:05:49 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 16:05:49 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:05:49 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:05:49 INFO event_listener.py:52: Created named pipe yasb-71bc84e7-fdf3-11ef-b8b4-047c16569870
+2025-03-10 16:05:49 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-71bc84e7-fdf3-11ef-b8b4-047c16569870
+2025-03-10 16:05:49 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 16:05:49 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 16:05:49 DEBUG _windows.py:192: Thread started
+2025-03-10 16:05:50 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-71bc84e7-fdf3-11ef-b8b4-047c16569870
+2025-03-10 16:06:19 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:06:41 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:06:51 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:07:07 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:07:26 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:07:46 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:08:14 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:08:36 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:08:42 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:08:49 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:09:21 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:09:30 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:18:32 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:18:41 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-10 16:19:39 INFO log.py:21: Yasb v1.6.4
+2025-03-10 16:19:39 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 16:19:39 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:19:39 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:19:39 INFO event_listener.py:52: Created named pipe yasb-604ed8e5-fdf5-11ef-a50d-047c16569870
+2025-03-10 16:19:39 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-604ed8e5-fdf5-11ef-a50d-047c16569870
+2025-03-10 16:19:39 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 16:19:39 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 16:19:39 DEBUG _windows.py:192: Thread started
+2025-03-10 16:19:39 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-604ed8e5-fdf5-11ef-a50d-047c16569870
+2025-03-10 16:19:45 INFO log.py:21: Yasb v1.6.4
+2025-03-10 16:19:45 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 16:19:45 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:19:45 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:19:45 INFO event_listener.py:52: Created named pipe yasb-63fcef82-fdf5-11ef-930a-047c16569870
+2025-03-10 16:19:45 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-63fcef82-fdf5-11ef-930a-047c16569870
+2025-03-10 16:19:45 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 16:19:45 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 16:19:45 DEBUG _windows.py:192: Thread started
+2025-03-10 16:19:45 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-63fcef82-fdf5-11ef-930a-047c16569870
+2025-03-10 16:19:53 INFO log.py:21: Yasb v1.6.4
+2025-03-10 16:19:53 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 16:19:53 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:19:54 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:19:54 INFO event_listener.py:52: Created named pipe yasb-68ebf913-fdf5-11ef-8a58-047c16569870
+2025-03-10 16:19:54 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-68ebf913-fdf5-11ef-8a58-047c16569870
+2025-03-10 16:19:54 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 16:19:54 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 16:19:54 DEBUG _windows.py:192: Thread started
+2025-03-10 16:19:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-68ebf913-fdf5-11ef-8a58-047c16569870
+2025-03-10 16:20:03 INFO log.py:21: Yasb v1.6.4
+2025-03-10 16:20:03 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 16:20:03 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:20:03 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 43px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:20:03 INFO event_listener.py:52: Created named pipe yasb-6e922c4d-fdf5-11ef-a9e4-047c16569870
+2025-03-10 16:20:03 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6e922c4d-fdf5-11ef-a9e4-047c16569870
+2025-03-10 16:20:03 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 16:20:03 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 16:20:03 DEBUG _windows.py:192: Thread started
+2025-03-10 16:20:03 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6e922c4d-fdf5-11ef-a9e4-047c16569870
+2025-03-10 16:50:33 INFO log.py:21: Yasb v1.6.4
+2025-03-10 16:50:33 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 16:50:33 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:50:33 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 16:50:33 INFO event_listener.py:52: Created named pipe yasb-b1644cad-fdf9-11ef-8961-047c16569870
+2025-03-10 16:50:33 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b1644cad-fdf9-11ef-8961-047c16569870
+2025-03-10 16:50:33 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 16:50:33 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 16:50:33 DEBUG _windows.py:192: Thread started
+2025-03-10 16:50:33 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b1644cad-fdf9-11ef-8961-047c16569870
+2025-03-10 18:46:25 INFO log.py:21: Yasb v1.6.4
+2025-03-10 18:46:25 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 18:46:25 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 18:46:25 DEBUG _windows.py:192: Thread started
+2025-03-10 18:50:36 INFO log.py:21: Yasb v1.6.4
+2025-03-10 18:50:36 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 18:50:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 18:50:36 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:37 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:37 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:37 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:37 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:39 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:39 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:39 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:39 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:41 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:41 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:41 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:41 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:43 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:43 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:43 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:43 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:45 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:45 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:45 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:45 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:47 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:47 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:47 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:47 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:49 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:49 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:49 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:49 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:51 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:51 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:51 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:53 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:54 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:54 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:54 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:55 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:55 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 19:18:55 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 19:18:56 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 19:18:56 INFO event_listener.py:52: Created named pipe yasb-6bc80e98-fe0e-11ef-88a1-047c16569870
+2025-03-10 19:18:56 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6bc80e98-fe0e-11ef-88a1-047c16569870
+2025-03-10 19:18:56 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:56 DEBUG _windows.py:192: Thread started
+2025-03-10 19:18:56 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6bc80e98-fe0e-11ef-88a1-047c16569870
+2025-03-10 19:18:58 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:18:58 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:18:58 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:18:58 DEBUG _windows.py:192: Thread started
+2025-03-10 19:19:00 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:19:00 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:19:00 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:19:00 DEBUG _windows.py:192: Thread started
+2025-03-10 19:19:13 INFO log.py:21: Yasb v1.6.4
+2025-03-10 19:19:14 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-10 19:19:14 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 19:19:14 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-10 19:19:14 INFO event_listener.py:52: Created named pipe yasb-769e892e-fe0e-11ef-be56-047c16569870
+2025-03-10 19:19:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-769e892e-fe0e-11ef-be56-047c16569870
+2025-03-10 19:19:14 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-10 19:19:14 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-10 19:19:14 DEBUG _windows.py:192: Thread started
+2025-03-10 19:19:14 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-769e892e-fe0e-11ef-be56-047c16569870
+2025-03-10 21:01:08 INFO bar_manager.py:62: Successfully loaded updated config and re-initialised all bars.
+2025-03-10 21:08:21 INFO bar_manager.py:62: Successfully loaded updated config and re-initialised all bars.
+2025-03-10 21:08:31 INFO bar_manager.py:62: Successfully loaded updated config and re-initialised all bars.
+2025-03-10 21:08:36 INFO bar_manager.py:62: Successfully loaded updated config and re-initialised all bars.
+2025-03-10 23:47:35 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-10 23:47:35 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-10 23:47:36 INFO tray.py:247: Exiting Application...
+2025-03-10 23:47:37 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-10 23:47:37 DEBUG _windows.py:201: Exiting thread
+2025-03-10 23:47:37 DEBUG _windows.py:75: Closing
+2025-03-11 15:15:27 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:15:29 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:15:34 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:15:35 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:15:35 INFO event_listener.py:52: Created named pipe yasb-975b281c-feb5-11ef-919e-047c16569870
+2025-03-11 15:15:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-975b281c-feb5-11ef-919e-047c16569870
+2025-03-11 15:15:35 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:15:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:15:35 DEBUG _windows.py:192: Thread started
+2025-03-11 15:15:36 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-11 15:17:17 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-975b281c-feb5-11ef-919e-047c16569870
+2025-03-11 15:43:13 ERROR bar_manager.py:53: Error loading config: document is missing
+2025-03-11 15:43:16 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:43:18 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:43:19 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:43:20 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:43:20 INFO event_listener.py:52: Created named pipe yasb-77a8a4d6-feb9-11ef-ac60-047c16569870
+2025-03-11 15:43:20 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-77a8a4d6-feb9-11ef-ac60-047c16569870
+2025-03-11 15:43:20 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:43:20 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:43:20 DEBUG _windows.py:192: Thread started
+2025-03-11 15:43:20 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-77a8a4d6-feb9-11ef-ac60-047c16569870
+2025-03-11 15:43:32 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:43:32 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:43:32 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:43:33 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:43:33 INFO event_listener.py:52: Created named pipe yasb-7f6eb007-feb9-11ef-be28-047c16569870
+2025-03-11 15:43:33 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-7f6eb007-feb9-11ef-be28-047c16569870
+2025-03-11 15:43:33 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:43:33 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:43:33 DEBUG _windows.py:192: Thread started
+2025-03-11 15:43:33 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-7f6eb007-feb9-11ef-be28-047c16569870
+2025-03-11 15:43:38 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:43:38 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:43:38 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:43:39 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:43:39 INFO event_listener.py:52: Created named pipe yasb-830140f7-feb9-11ef-83fa-047c16569870
+2025-03-11 15:43:39 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-830140f7-feb9-11ef-83fa-047c16569870
+2025-03-11 15:43:39 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:43:39 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:43:39 DEBUG _windows.py:192: Thread started
+2025-03-11 15:43:39 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-830140f7-feb9-11ef-83fa-047c16569870
+2025-03-11 15:48:24 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:48:24 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:48:24 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:25 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:25 INFO event_listener.py:52: Created named pipe yasb-2d68d17c-feba-11ef-a252-047c16569870
+2025-03-11 15:48:25 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-2d68d17c-feba-11ef-a252-047c16569870
+2025-03-11 15:48:25 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:48:25 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:48:25 DEBUG _windows.py:192: Thread started
+2025-03-11 15:48:25 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-2d68d17c-feba-11ef-a252-047c16569870
+2025-03-11 15:48:35 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:48:36 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:48:36 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:36 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:36 INFO event_listener.py:52: Created named pipe yasb-3430a6c7-feba-11ef-972c-047c16569870
+2025-03-11 15:48:36 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-3430a6c7-feba-11ef-972c-047c16569870
+2025-03-11 15:48:36 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:48:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:48:36 DEBUG _windows.py:192: Thread started
+2025-03-11 15:48:36 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3430a6c7-feba-11ef-972c-047c16569870
+2025-03-11 15:48:50 INFO tray.py:241: Reloading Application...
+2025-03-11 15:48:50 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:48:50 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:48:50 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:51 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:51 INFO event_listener.py:52: Created named pipe yasb-3cf41da2-feba-11ef-824a-047c16569870
+2025-03-11 15:48:51 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-3cf41da2-feba-11ef-824a-047c16569870
+2025-03-11 15:48:51 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:48:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:48:51 DEBUG _windows.py:192: Thread started
+2025-03-11 15:48:51 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3cf41da2-feba-11ef-824a-047c16569870
+2025-03-11 15:48:56 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:48:56 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:48:56 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:57 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:48:57 INFO event_listener.py:52: Created named pipe yasb-4075b4e5-feba-11ef-9ecd-047c16569870
+2025-03-11 15:48:57 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-4075b4e5-feba-11ef-9ecd-047c16569870
+2025-03-11 15:48:57 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:48:57 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:48:57 DEBUG _windows.py:192: Thread started
+2025-03-11 15:48:57 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-4075b4e5-feba-11ef-9ecd-047c16569870
+2025-03-11 15:51:42 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:51:42 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:51:42 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:51:43 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:51:43 INFO event_listener.py:52: Created named pipe yasb-a38f0a3a-feba-11ef-aff5-047c16569870
+2025-03-11 15:51:43 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-a38f0a3a-feba-11ef-aff5-047c16569870
+2025-03-11 15:51:43 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:51:43 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:51:43 DEBUG _windows.py:192: Thread started
+2025-03-11 15:51:43 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-a38f0a3a-feba-11ef-aff5-047c16569870
+2025-03-11 15:51:59 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:52:00 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:52:00 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:52:01 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:52:01 INFO event_listener.py:52: Created named pipe yasb-ae266a46-feba-11ef-bf88-047c16569870
+2025-03-11 15:52:01 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ae266a46-feba-11ef-bf88-047c16569870
+2025-03-11 15:52:01 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:52:01 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:52:01 DEBUG _windows.py:192: Thread started
+2025-03-11 15:52:01 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ae266a46-feba-11ef-bf88-047c16569870
+2025-03-11 15:52:04 INFO log.py:21: Yasb v1.6.4
+2025-03-11 15:52:04 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 15:52:04 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:52:04 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 15:52:04 INFO event_listener.py:52: Created named pipe yasb-b05e1cab-feba-11ef-ba8f-047c16569870
+2025-03-11 15:52:04 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b05e1cab-feba-11ef-ba8f-047c16569870
+2025-03-11 15:52:04 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 15:52:04 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 15:52:04 DEBUG _windows.py:192: Thread started
+2025-03-11 15:52:04 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b05e1cab-feba-11ef-ba8f-047c16569870
+2025-03-11 15:53:13 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 15:53:45 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 15:54:14 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 15:54:25 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 15:54:30 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 15:56:04 INFO bar_manager.py:62: Successfully loaded updated config and re-initialised all bars.
+2025-03-11 16:01:32 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:02:12 INFO tray.py:241: Reloading Application...
+2025-03-11 16:02:13 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:02:13 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:02:13 WARNING widget_builder.py:38: No widget config could be found for widget 'apps
+2025-03-11 16:02:18 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:02:18.696696
+2025-03-11 16:02:19 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:02:19 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:02:19 WARNING widget_builder.py:35: Ignoring construction of invalid widget 'apps'
+2025-03-11 16:02:19 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:02:19.960564
+2025-03-11 16:02:19 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:02:20 ERROR widget_builder.py:77: Failed to add undefined widget(s)  - The widget "apps" is undefined.
+2025-03-11 16:02:20 INFO event_listener.py:52: Created named pipe yasb-1f0e2058-febc-11ef-b74f-047c16569870
+2025-03-11 16:02:20 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-1f0e2058-febc-11ef-b74f-047c16569870
+2025-03-11 16:02:20 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-1f0e2058-febc-11ef-b74f-047c16569870
+2025-03-11 16:02:21 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-03-11 16:02:24 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-03-11 16:02:27 ERROR event_listener.py:122: Failed to retrieve komorebi state before starting event listener: None returned. Retrying in 1 second... Is komorebi online and its binaries added to $PATH?
+2025-03-11 16:02:54 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:02:54 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:02:54 WARNING widget_builder.py:38: No widget config could be found for widget 'apps
+2025-03-11 16:02:55 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:02:55.066892
+2025-03-11 16:02:55 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:02:55 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:02:55 WARNING widget_builder.py:35: Ignoring construction of invalid widget 'apps'
+2025-03-11 16:02:55 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:02:55.453732
+2025-03-11 16:02:55 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:02:55 ERROR widget_builder.py:77: Failed to add undefined widget(s)  - The widget "apps" is undefined.
+2025-03-11 16:02:55 INFO event_listener.py:52: Created named pipe yasb-3435c543-febc-11ef-8f61-047c16569870
+2025-03-11 16:02:55 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-3435c543-febc-11ef-8f61-047c16569870
+2025-03-11 16:02:55 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3435c543-febc-11ef-8f61-047c16569870
+2025-03-11 16:03:38 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:03:38 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:03:38 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:03:38.872775
+2025-03-11 16:03:38 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:03:38 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:03:39 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:03:39.263061
+2025-03-11 16:03:39 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:03:39 INFO event_listener.py:52: Created named pipe yasb-4e52aa24-febc-11ef-9ee1-047c16569870
+2025-03-11 16:03:39 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:03:39 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-4e52aa24-febc-11ef-9ee1-047c16569870
+2025-03-11 16:03:39 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:03:39 DEBUG _windows.py:192: Thread started
+2025-03-11 16:03:39 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-4e52aa24-febc-11ef-9ee1-047c16569870
+2025-03-11 16:05:14 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:05:14 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:05:14 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:14.520884
+2025-03-11 16:05:14 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:05:14 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:14 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:14.916037
+2025-03-11 16:05:14 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:14 INFO event_listener.py:52: Created named pipe yasb-87559708-febc-11ef-9536-047c16569870
+2025-03-11 16:05:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-87559708-febc-11ef-9536-047c16569870
+2025-03-11 16:05:15 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:05:15 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:05:15 DEBUG _windows.py:192: Thread started
+2025-03-11 16:05:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-87559708-febc-11ef-9536-047c16569870
+2025-03-11 16:05:27 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:05:27 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:05:27 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:27.444052
+2025-03-11 16:05:27 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:05:27 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:27 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:27.850432
+2025-03-11 16:05:27 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:27 INFO event_listener.py:52: Created named pipe yasb-8f0b6663-febc-11ef-9103-047c16569870
+2025-03-11 16:05:27 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-8f0b6663-febc-11ef-9103-047c16569870
+2025-03-11 16:05:27 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:05:27 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:05:27 DEBUG _windows.py:192: Thread started
+2025-03-11 16:05:27 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-8f0b6663-febc-11ef-9103-047c16569870
+2025-03-11 16:05:35 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:05:35 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:05:36 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:36.035640
+2025-03-11 16:05:36 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:05:36 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:36 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:36.424243
+2025-03-11 16:05:36 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:36 INFO event_listener.py:52: Created named pipe yasb-9427a6ba-febc-11ef-883b-047c16569870
+2025-03-11 16:05:36 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-9427a6ba-febc-11ef-883b-047c16569870
+2025-03-11 16:05:36 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:05:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:05:36 DEBUG _windows.py:192: Thread started
+2025-03-11 16:05:36 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-9427a6ba-febc-11ef-883b-047c16569870
+2025-03-11 16:05:53 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:05:53 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:05:54 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:54.066268
+2025-03-11 16:05:54 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:05:54 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:54 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:05:54.479809
+2025-03-11 16:05:54 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:05:54 INFO event_listener.py:52: Created named pipe yasb-9eea8e6d-febc-11ef-ac60-047c16569870
+2025-03-11 16:05:54 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-9eea8e6d-febc-11ef-ac60-047c16569870
+2025-03-11 16:05:54 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:05:54 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:05:54 DEBUG _windows.py:192: Thread started
+2025-03-11 16:05:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-9eea8e6d-febc-11ef-ac60-047c16569870
+2025-03-11 16:07:03 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:03 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:06 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:06 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:06 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:07 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:07 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:07 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:07 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:07 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:07 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:13 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:13 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:13 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:20 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:27 INFO tray.py:241: Reloading Application...
+2025-03-11 16:07:27 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:07:27 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:07:27 ERROR config.py:144: User config file could not be loaded. Exiting Application.
+2025-03-11 16:08:52 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:08:52 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:08:52 ERROR config.py:144: User config file could not be loaded. Exiting Application.
+2025-03-11 16:10:05 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:10:05 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 114, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 127, column 8
+2025-03-11 16:10:05 ERROR config.py:144: User config file could not be loaded. Exiting Application.
+2025-03-11 16:11:24 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:11:24 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 112, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 117, column 8
+2025-03-11 16:11:24 ERROR config.py:144: User config file could not be loaded. Exiting Application.
+2025-03-11 16:13:03 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:13:03 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 112, column 7
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 117, column 8
+2025-03-11 16:13:03 ERROR config.py:144: User config file could not be loaded. Exiting Application.
+2025-03-11 16:14:22 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:14:22 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 118, column 9
+expected <block end>, but found ','
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 124, column 40
+2025-03-11 16:14:22 ERROR config.py:144: User config file could not be loaded. Exiting Application.
+2025-03-11 16:16:13 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:16:13 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:16:13 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:16:13.756139
+2025-03-11 16:16:13 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:16:13 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:16:14 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:16:14.168206
+2025-03-11 16:16:14 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:16:14 INFO event_listener.py:52: Created named pipe yasb-1047d0f3-febe-11ef-a0dd-047c16569870
+2025-03-11 16:16:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-1047d0f3-febe-11ef-a0dd-047c16569870
+2025-03-11 16:16:14 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:16:14 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:16:14 DEBUG _windows.py:192: Thread started
+2025-03-11 16:16:14 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-1047d0f3-febe-11ef-a0dd-047c16569870
+2025-03-11 16:16:53 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:16:53 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:16:54 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:16:54.194718
+2025-03-11 16:16:54 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:16:54 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:16:54 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:16:54.596968
+2025-03-11 16:16:54 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:16:54 INFO event_listener.py:52: Created named pipe yasb-28609130-febe-11ef-86cd-047c16569870
+2025-03-11 16:16:54 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-28609130-febe-11ef-86cd-047c16569870
+2025-03-11 16:16:54 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:16:54 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:16:54 DEBUG _windows.py:192: Thread started
+2025-03-11 16:16:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-28609130-febe-11ef-86cd-047c16569870
+2025-03-11 16:17:04 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:17:04 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:17:04 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:17:04.912130
+2025-03-11 16:17:04 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:17:04 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:17:05 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:17:05.312600
+2025-03-11 16:17:05 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:17:05 INFO event_listener.py:52: Created named pipe yasb-2ec3cc23-febe-11ef-a762-047c16569870
+2025-03-11 16:17:05 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-2ec3cc23-febe-11ef-a762-047c16569870
+2025-03-11 16:17:05 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:17:05 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:17:05 DEBUG _windows.py:192: Thread started
+2025-03-11 16:17:05 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-2ec3cc23-febe-11ef-a762-047c16569870
+2025-03-11 16:17:33 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:17:41 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:17:55 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:18:04 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:18:07 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:18:16 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:18:52 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:18:58 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:19:09 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:19:16 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:19:26 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:20:14 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:20:20 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:20:38 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:20:57 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:21:19 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:21:30 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:21:38 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:21:51 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:22:16 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:22:29 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:23:11 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:23:17 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:23:27 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:23:37 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:23:57 INFO log.py:21: Yasb v1.6.4
+2025-03-11 16:23:57 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 16:23:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:23:57.705433
+2025-03-11 16:23:57 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 16:23:57 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:23:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:23:58.104251
+2025-03-11 16:23:58 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 16:23:58 INFO event_listener.py:52: Created named pipe yasb-24ce7702-febf-11ef-b2a7-047c16569870
+2025-03-11 16:23:58 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-24ce7702-febf-11ef-b2a7-047c16569870
+2025-03-11 16:23:58 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 16:23:58 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 16:23:58 DEBUG _windows.py:192: Thread started
+2025-03-11 16:23:58 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-24ce7702-febf-11ef-b2a7-047c16569870
+2025-03-11 16:25:42 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:25:53 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:26:01 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:26:04 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:26:14 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:26:24 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:26:29 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-11 16:33:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:33:57.685711
+2025-03-11 16:33:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:33:58.090288
+2025-03-11 16:43:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:43:57.663415
+2025-03-11 16:43:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:43:58.073140
+2025-03-11 16:53:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:53:57.668428
+2025-03-11 16:53:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 16:53:58.059371
+2025-03-11 17:03:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:03:57.653918
+2025-03-11 17:03:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:03:58.042475
+2025-03-11 17:13:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:13:57.645826
+2025-03-11 17:13:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:13:58.026003
+2025-03-11 17:23:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:23:57.631664
+2025-03-11 17:23:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:23:58.020616
+2025-03-11 17:33:57 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:33:57.629563
+2025-03-11 17:33:58 INFO weather.py:367: Fetched new weather data at 2025-03-11 17:33:58.021117
+2025-03-11 17:35:16 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-03-11 17:35:16 INFO event_listener.py:93: Attempting to reconnect...
+2025-03-11 17:35:20 INFO tray.py:247: Exiting Application...
+2025-03-11 17:35:20 DEBUG _windows.py:218: Stopping worker thread...
+2025-03-11 17:35:20 DEBUG _windows.py:201: Exiting thread
+2025-03-11 17:35:20 DEBUG _windows.py:75: Closing
+2025-03-11 18:51:16 INFO log.py:21: Yasb v1.6.4
+2025-03-11 18:51:16 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 18:51:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 18:51:16.397585
+2025-03-11 18:51:16 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 18:51:16 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 18:51:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 18:51:16.837134
+2025-03-11 18:51:16 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 18:51:16 INFO event_listener.py:52: Created named pipe yasb-b91a9b52-fed3-11ef-8844-047c16569870
+2025-03-11 18:51:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b91a9b52-fed3-11ef-8844-047c16569870
+2025-03-11 18:51:16 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 18:51:16 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 18:51:16 DEBUG _windows.py:192: Thread started
+2025-03-11 18:51:16 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2025-03-11 18:51:37 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b91a9b52-fed3-11ef-8844-047c16569870
+2025-03-11 19:01:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:01:16.405471
+2025-03-11 19:01:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:01:16.841204
+2025-03-11 19:11:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:11:16.396038
+2025-03-11 19:11:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:11:16.831673
+2025-03-11 19:21:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:21:16.403960
+2025-03-11 19:21:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:21:16.838444
+2025-03-11 19:31:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:31:16.391092
+2025-03-11 19:31:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:31:16.828120
+2025-03-11 19:41:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:41:16.413988
+2025-03-11 19:41:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:41:16.830818
+2025-03-11 19:51:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:51:16.404535
+2025-03-11 19:51:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 19:51:16.825076
+2025-03-11 20:01:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 20:01:16.405151
+2025-03-11 20:01:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 20:01:16.825496
+2025-03-11 20:11:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 20:11:16.416950
+2025-03-11 20:11:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 20:11:16.823863
+2025-03-11 20:21:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 20:21:16.414107
+2025-03-11 20:21:16 INFO weather.py:367: Fetched new weather data at 2025-03-11 20:21:16.837721
+2025-03-11 21:21:59 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:21:59.601710
+2025-03-11 21:22:00 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:22:00.005714
+2025-03-11 21:31:59 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:31:59.596503
+2025-03-11 21:31:59 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:31:59.999746
+2025-03-11 21:46:35 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:46:35.013813
+2025-03-11 21:46:35 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:46:35.479995
+2025-03-11 21:56:35 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:56:35.017754
+2025-03-11 21:56:35 INFO weather.py:367: Fetched new weather data at 2025-03-11 21:56:35.487873
+2025-03-11 22:04:54 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:04:54 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:04:54 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:03 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:03 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:21 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:21 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:21 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:28 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:28 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:28 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:31 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:31 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:31 ERROR config.py:98: The file 'C:\Users\Sloth\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow sequence
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 41, column 15
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Sloth\.config\yasb\config.yaml", line 42, column 11
+2025-03-11 22:05:40 INFO log.py:21: Yasb v1.6.4
+2025-03-11 22:05:40 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-11 22:05:40 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-11 22:05:40 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 22:05:41 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-11 22:05:41 INFO event_listener.py:52: Created named pipe yasb-e189d96b-feee-11ef-aff0-047c16569870
+2025-03-11 22:05:41 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-e189d96b-feee-11ef-aff0-047c16569870
+2025-03-11 22:05:41 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-11 22:05:41 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-11 22:05:41 DEBUG _windows.py:192: Thread started
+2025-03-11 22:05:41 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-e189d96b-feee-11ef-aff0-047c16569870

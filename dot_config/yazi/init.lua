@@ -1,0 +1,5 @@
+require("confirm-quit")
+require("folder-rules")
+require("smart-paste")
+require("smart-switch")
+require("smart-tab")

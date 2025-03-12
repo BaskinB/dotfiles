@@ -1,0 +1,145 @@
+/* Font Definitions */
+:root {
+  --primary-font: "JetBrainsMono Nerd Font Regular", monospace;
+}
+
+.label-name,
+.subtitle.description,
+.product-name.caption,
+.category-title.max-lines-3,
+.action-label,
+.windows,
+.menubar-menu-button,
+.p-Menu-itemLabel,
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name,
+.search-label {
+  font-family: var(--primary-font) !important;
+}
+
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name,
+.search-label {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+/* Shadows */
+.monaco-editor .scroll-decoration {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.75) !important;
+  top: -6px !important;
+}
+
+.part.sidebar {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+}
+
+.monaco-scrollable-element > .shadow.top {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75) !important;
+  top: -3px !important;
+}
+
+/* Hidden Elements */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .editor-actions,
+.monaco-workbench .part.sidebar .title-actions .actions-container,
+.search-icon,
+.codicon-search::before,
+.codicon-arrow-right,
+.codicon-arrow-left,
+.titlebar-right > * {
+  display: none !important;
+}
+
+/* File Explorer */
+.monaco-list.list_id_1 .monaco-list-row.selected {
+  opacity: 1 !important;
+  border-top: 1px solid #727b90;
+  border-bottom: 1px solid #727b90;
+}
+
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+  opacity: 1 !important;
+}
+
+/* Sidebar Title */
+.composite.title {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-items: center !important;
+}
+
+.composite.title h2 {
+  font-weight: bold !important;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: #bc9abc !important;
+}
+
+.composite.title h2::before {
+  content: "🦥";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 1.1rem;
+}
+
+/* Scrollbar */
+.slider {
+  position: absolute !important;
+  right: 1px !important;
+  width: 1px !important;
+  left: auto !important;
+}
+
+/* Toolbar Icons */
+.codicon-toolbar-more,
+.codicon-word-wrap {
+  display: block !important;
+}
+
+/* Titlebar */
+.monaco-workbench
+  .part.titlebar
+  > .titlebar-container
+  > .titlebar-center
+  > .window-title
+  > .command-center
+  .action-item.command-center-center {
+  border: none !important;
+  background: transparent !important;
+}
+
+.command-center-center {
+  width: auto !important;
+}
+
+/* List Styles */
+.monaco-list-rows {
+  background: transparent !important;
+}
+
+.monaco-list-row:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+  background: none !important;
+}
+
+/* Watermark */
+.editor-group-watermark {
+  opacity: 1 !important;
+  max-width: none !important;
+}
+
+/* To change the watermark background change the URL below */
+.editor-group-watermark > .letterpress {
+  background-image: url("https://media.discordapp.net/attachments/964423486758064128/1340740151290232963/signlogo.png?ex=67b37511&is=67b22391&hm=f522844ad606e102b7dbdde17cf5e19ef5fdc336df09838432ea0a4830dba767&=&format=webp&quality=lossless&width=667&height=671") !important;
+  opacity: 0.75;
+  aspect-ratio: 3/2 !important;
+}

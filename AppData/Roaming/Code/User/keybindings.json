@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+n",
+    "command": "settings.cycle.lineNumbers"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "settings.cycle.showTabs"
+  }
+]
