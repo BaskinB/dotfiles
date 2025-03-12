@@ -15,7 +15,7 @@ tangle: "./yasb/config.yaml"
 
 ## About This Configuration
 
-![image](https://media.discordapp.net/attachments/964423486758064128/1348829360509157376/image.png?ex=67d0e2bb&is=67cf913b&hm=5756ab15c364c58005e330c5edb54e4a2805503d91eb80bd8aee3003cdcea427&=&format=webp&quality=lossless&width=1860&height=698)
+![image](https://imgur.com/a/koUh8uZ)
 
 This is a configuration file for the YASB-Reborn Project originally provided by the YASB-Reborn Themes repo and has been adapted to my colorscheme/style but at it's core it is their config.
 
