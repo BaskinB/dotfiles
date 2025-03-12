@@ -19,7 +19,7 @@ tangle: "./yasb/config.yaml"
 
 This is a configuration file for the YASB-Reborn Project originally provided by the YASB-Reborn Themes repo and has been adapted to my colorscheme/style but at it's core it is their config.
 
-YASB or Yet Another Top Bar is a Top Bar for windows written in the Rust language, I primarily use it for its komorebi widget to go along side my main Komorebi Config which you can fine [here](#bar-settings)
+YASB or Yet Another Top Bar is a Top Bar for windows written in the Rust language, I primarily use it for its komorebi widget to go along side my main Komorebi Config which you can fine [here](https://github.com/BaskinB/dotfiles/blob/main/dot_config/komorebi/komorebi.md)
 
 ### Main Settings
 
