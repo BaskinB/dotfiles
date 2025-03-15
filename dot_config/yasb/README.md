@@ -237,7 +237,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%D %H:%M %p}"
+      label: "{%d/%m/%y %H:%M:%p}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       calendar:
