@@ -6,7 +6,7 @@ Welcome to my personal Windows Dotfiles repository. This is where I keep all my 
 
 ## Literate Configs 📚
 
-Some of these configurations are written as Literate Configs using a custom Python script. This script tangles markdown code blocks into their required formats and files, making it easier to manage and understand the configurations. By keeping the documentation and code together, it ensures that everything stays up-to-date and well-documented.
+Some of these configurations are written as Literate Configs in their respective README.md using a custom Python script. This script tangles markdown code blocks into their required formats and files, making it easier to manage and understand the configurations. By keeping the documentation and code together, it ensures that everything stays up-to-date and well-documented.
 
 ## Software
 
