@@ -45,7 +45,7 @@ This a a literate configuration file is for Komorebi, a tiling window manager fo
 
 ```json
   "default_workspace_padding": 4,
-  "default_container_padding": 4,
+  "default_container_padding": 4, 
 ```
 
 ### Border Settings
