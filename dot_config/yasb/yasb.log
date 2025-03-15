@@ -1903,3 +1903,31 @@ expected ',' or ']', but got '<scalar>'
 2025-03-11 22:05:41 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-03-11 22:05:41 DEBUG _windows.py:192: Thread started
 2025-03-11 22:05:41 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-e189d96b-feee-11ef-aff0-047c16569870
+2025-03-15 08:15:35 INFO log.py:21: Yasb v1.6.4
+2025-03-15 08:15:35 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-15 08:15:35 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-15 08:15:35 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-15 08:15:35 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 39px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-15 08:15:35 INFO event_listener.py:52: Created named pipe yasb-94e69ba8-019f-11f0-958a-047c16569870
+2025-03-15 08:15:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-94e69ba8-019f-11f0-958a-047c16569870
+2025-03-15 08:15:35 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-15 08:15:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-15 08:15:35 DEBUG _windows.py:192: Thread started
+2025-03-15 08:15:35 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-94e69ba8-019f-11f0-958a-047c16569870
+2025-03-15 08:18:07 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-15 08:18:22 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-15 08:18:27 INFO log.py:21: Yasb v1.6.4
+2025-03-15 08:18:27 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-15 08:18:28 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-03-15 08:18:28 INFO weather.py:367: Fetched new weather data at 2025-03-15 08:18:28.054017
+2025-03-15 08:18:28 INFO app_bar.py:103: Bar Created on Screen: LG ULTRAGEAR [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-15 08:18:28 ERROR github.py:410: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-03-15 08:18:28 INFO weather.py:367: Fetched new weather data at 2025-03-15 08:18:28.843512
+2025-03-15 08:18:28 INFO app_bar.py:103: Bar Created on Screen: ASUS PA238 [Bar Height: 40px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-15 08:18:29 INFO event_listener.py:52: Created named pipe yasb-fc2483a6-019f-11f0-90ac-047c16569870
+2025-03-15 08:18:29 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-fc2483a6-019f-11f0-90ac-047c16569870
+2025-03-15 08:18:29 INFO watcher.py:39: Created file watcher for path C:\Users\Sloth\.config\yasb
+2025-03-15 08:18:29 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-15 08:18:29 DEBUG _windows.py:192: Thread started
+2025-03-15 08:18:29 ERROR github.py:410: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-03-15 08:18:29 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-fc2483a6-019f-11f0-90ac-047c16569870

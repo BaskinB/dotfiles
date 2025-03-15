@@ -1,3 +1,31 @@
+---
+title: "YASB Config"
+author: "BaskinB"
+tangle: "./yasb/config.yaml"
+---
+
+# YASB Config <!-- omit in toc -->
+
+## Table of Contents <!-- omit in toc -->
+
+- [About This Configuration](#about-this-configuration)
+  - [Main Settings](#main-settings)
+  - [Bar Settings](#bar-settings)
+  - [Widgets Configuration](#widgets-configuration)
+
+## About This Configuration
+
+![image](https://media.discordapp.net/attachments/964423486758064128/1348829360509157376/image.png?ex=67d0e2bb&is=67cf913b&hm=5756ab15c364c58005e330c5edb54e4a2805503d91eb80bd8aee3003cdcea427&=&format=webp&quality=lossless&width=1860&height=698)
+
+This is a configuration file for the YASB-Reborn Project originally provided by the YASB-Reborn Themes repo and has been adapted to my colorscheme/style but at it's core it is their config.
+
+YASB or Yet Another Top Bar is a Top Bar for windows written in the Rust language, I primarily use it for its komorebi widget to go along side my main Komorebi Config which you can fine [here](#bar-settings)
+
+### Main Settings
+
+These are the simple configuration settings for stuff like watching the config and styles.css to live update them upon saving
+
+```yaml
 watch_stylesheet: true
 watch_config: true
 debug: false
@@ -5,8 +33,13 @@ komorebi:
   start_command: "komorebic start --whkd"
   stop_command: "komorebic stop --whkd"
   reload_command: "komorebic stop --whkd && komorebic start --whkd"
+```
 
+### Bar Settings
 
+These are the main bar's settings, really the only stuff that pertains to us is the alignment settings, the bur effect, etc etc. in the future I'd like to move away from sqaured buttons and use workspace names and adopt a more TUI Textfox/Spicifey Text theme style for this will do for now.
+
+```yaml
 bars:
   primary-bar:
     enabled: true
@@ -54,8 +87,13 @@ bars:
           "wallpapers",
           "power_menu"
         ]
+```
 
+### Widgets Configuration
 
+This is the configuration settings for all of the widgets defined in the bar configuration above.
+
+```yaml
 widgets:
   home:
     type: "yasb.home.HomeWidget"
@@ -298,4 +336,4 @@ widgets:
         alignment: "right"
         direction: "down"
         distance: 6
-
+```

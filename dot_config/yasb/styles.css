@@ -15,8 +15,8 @@ For more information about configuration options, please visit the Wiki https://
   --ansi-green: #8effd9;
   --ansi-yellow: #ffca85;
   --ansi-blue: #f477ff;
-  --ansi-magenta: #61ffca;
-  --ansi-cyan: #a277ff;
+  --ansi-magenta: #e92bff;
+  --ansi-cyan: #4eddff;
   --ansi-white: #cdccce;
   --bright-black: #2d2d2d;
   --bright-red: #ffca85;
@@ -27,15 +27,6 @@ For more information about configuration options, please visit the Wiki https://
   --bright-cyan: #61ffca;
   --bright-white: #edecee;
 }
-/* Global styles for ToolTip */
-QToolTip {
-  padding: 6px;
-  color: var(--foreground);
-  font-size: 12px;
-  background-color: var(--background);
-  border: 0px solid #313244;
-  border-radius: 6px;
-}
 * {
   font-size: 12px;
   color: var(--foreground);
@@ -44,232 +35,387 @@ QToolTip {
   margin: 0;
   padding: 0;
 }
+/*GENERAL CONFIGRATIONS*/
 .yasb-bar {
   padding: 0;
   margin: 0;
   background-color: var(--background);
-  border-radius: 8px;
 }
 .widget {
-  padding: 0 12px;
-  margin: 0;
+  padding: 0 4px;
+  margin: 0 4px;
+  border-radius: 12px;
+  border: 1px solid rgba(128, 128, 128, 0);
 }
-.icon {
-  font-size: 16px;
+.widget .icon {
+  font-size: 18px;
 }
 .widget .label {
-  padding: 0px 2px;
-}
-.komorebi-active-layout {
-  padding: 0 4px 0 0;
-}
-.komorebi-active-layout .label {
-  font-weight: 600;
-  padding: 2px 0 0 0;
-}
-.apps-widget .widget-container,
-.komorebi-workspaces .widget-container,
-.komorebi-active-layout .widget-container {
-  background-color: var(--background);
-  margin: 3px 0 3px 0;
-  border-radius: 12px;
-  border: 1px solid var(--bright-black);
-}
-.komorebi-workspaces .widget-container {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-  margin-left: 4px;
-}
-.komorebi-workspaces {
-  border-top-right-radius: 14px;
-  border-bottom-right-radius: 14px;
-  padding: 0 4px 0 0;
-}
-.komorebi-workspaces .offline-status {
-  color: var(--bright-black);
-  font-size: 12px;
-  padding: 0 0 0 4px;
-  font-weight: 600;
-}
-.komorebi-workspaces .ws-btn {
-  font-size: 14px;
-  border: none;
-  color: var(--foreground);
-  margin: 0 1px 0 1px;
-  height: 30px;
-  padding: 0 12px;
-}
-.komorebi-workspaces .ws-btn:hover {
-  color: var(--selection-fg);
-}
-.komorebi-workspaces .ws-btn.populated {
-  color: var(--ansi-blue);
-}
-.komorebi-workspaces .ws-btn.active {
-  color: #94e2d5;
-  font-weight: 900;
-  border-bottom-color: #94e2d5;
-}
-.apps-widget {
-  padding: 0 4px 0 2px;
-}
-.apps-widget .label {
-  font-size: 14px;
-  padding: 0 2px;
   color: var(--foreground);
 }
-.apps-widget .label:hover {
-  color: var(--bright-white);
-}
-
-.power-menu-widget .label {
-  color: var(--ansi-red);
-  font-size: 13px;
-}
-.power-menu-popup {
-  background-color: transparent;
-}
-.power-menu-popup .button {
-  padding: 0;
-  width: 180px;
-  height: 230px;
-  border-radius: 8px;
-  background-color: var(--background);
-  color: var(--foreground);
-  border-left: 4px solid rgba(58, 59, 83, 0);
-  border-right: 4px solid rgba(58, 59, 83, 0);
-  border-top: 4px solid rgba(58, 59, 83, 0);
-  border-bottom: 4px solid rgba(58, 59, 83, 0);
-  margin: 0px;
-}
-.power-menu-popup .button.hover {
-  background-color: var(--background);
-  border-left: 4px solid var(--background);
-  border-right: 4px solid var(--background);
-  border-top: 4px solid var(--background);
-  border-bottom: 4px solid var(--background);
-}
-
-.power-menu-popup .button .label {
-  margin-bottom: 8px;
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--bright-black);
-}
-.power-menu-popup .button .icon {
-  font-size: 64px;
-  padding-top: 32px;
-  color: var(--bright-black);
-}
-
-.power-menu-popup .button.cancel .icon {
-  padding: 0;
-  margin: 0;
-}
-.power-menu-popup .button.cancel .label {
-  color: var(--ansi-red);
-  margin: 0;
-}
-.power-menu-popup .button.cancel {
-  height: 32px;
-  border-radius: 4px;
-}
-.uptime {
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: var(--bright-black);
-  font-weight: 600;
-}
-.microphone-widget {
-  padding: 0 6px 0 6px;
-}
-.microphone-widget .icon {
-  font-size: 18px;
-}
-.microphone-widget .icon {
-  color: var(--ansi-magenta);
-}
-.volume-widget .icon {
-  color: var(--ansi-blue);
-  margin: 1px 2px 0 0;
-}
-.weather-widget,
-.volume-widget {
-  padding: 0 6px;
-}
-.weather-widget .icon {
-  font-size: 18px;
-  margin: 0 2px 1px 0;
-  color: var(--ansi-yellow);
-}
-.media-widget {
-  padding: 0;
-  margin: 0;
-  border-radius: 0;
-}
-.media-widget .label {
-  color: var(--foreground);
-  background-color: rgba(24, 24, 37, 0.7);
-  padding: 0px;
-  padding-right: 4px;
-  font-size: 12px;
-}
-.media-widget .label.maintext {
-  padding-top: 3px;
-}
-.media-widget .btn {
-  color: var(--foreground);
-  padding: 0 1px;
-  margin: 0;
-  font-family: Segoe Fluent Icons;
-  font-weight: 400;
-}
-.media-widget .btn:hover {
-  color: var(--bright-white);
-}
-.media-widget .btn.play {
-  font-size: 16px;
-}
-.media-widget .btn.disabled:hover,
-.media-widget .btn.disabled {
-  color: var(--bright-black);
-  font-size: 12px;
-  background-color: rgba(0, 0, 0, 0);
-}
-.taskbar-widget {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-.taskbar-widget .app-icon {
-  padding: 0 6px;
-  border: none;
-  margin: 0;
-}
+/*WIDGET*/
 .home-widget {
-  padding: 0 4px 0 12px;
+  padding-bottom: 1px;
 }
-.home-widget .icon {
-  color: var(--bright-blue);
-}
-.home-widget .icon:hover {
-  color: var(--bright-white);
-}
+/*HOME WIDGET DROPDOWN*/
 .home-menu {
   background-color: var(--background);
+  padding: 0;
+  margin-left: 0px;
 }
 .home-menu .menu-item {
-  padding: 8px 48px 9px 16px;
+  padding: 6px 48px 7px 16px;
   font-size: 12px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--foreground);
   font-weight: 600;
 }
 .home-menu .menu-item:hover {
   background-color: rgba(128, 130, 158, 0.15);
   color: #fff;
 }
-.home-menu:separator {
-  height: 1px;
+.home-menu .separator {
+  max-height: 1px;
   background-color: rgba(128, 130, 158, 0.3);
+}
+/*KOMOREBI WORKSPACES WIDGET*/
+.komorebi-workspaces {
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+}
+.komorebi-workspaces .offline-status {
+  color: #627199;
+  font-size: 12px;
+  padding: 0 4px;
+  font-weight: 600;
+}
+.komorebi-workspaces .ws-btn {
+  font-size: 14px;
+  border: none;
+  color: #6c7086;
+  margin: 0 1px 0 1px;
+  height: 30px;
+  padding: 0 12px;
+  border-bottom: 1px solid var(--background);
+}
+.komorebi-workspaces .ws-btn.populated {
+  color: var(--foreground);
+  border-bottom-color: var(--ansi-magenta);
+}
+.komorebi-workspaces .ws-btn.active {
+  color: var(--ansi-cyan);
+  font-weight: 900;
+  width: 50px;
+  border-bottom-color: var(--ansi-cyan);
+}
+/*WEATHER WIDGET*/
+.weather-widget {
+  padding: 0;
+  padding-left: -5;
+}
+.weather-widget .icon {
+  color: var(--ansi-yellow);
+  padding: 6px;
+}
+.weather-widget .label {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+}
+/*ACTIVE WINDOW WIDGET*/
+.active-window-widget .label {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+}
+.active-window-widget .icon {
+  padding-right: 6px;
+  border: none;
+}
+/*CLOCK - CALENDAR WIDGET*/
+.clock-widget .label {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+}
+/*CLOCK - CALENDAR WIDGET DROPDOWN*/
+.calendar {
+  background-color: var(--background);
+}
+.calendar .calendar-table,
+.calendar .calendar-table::item {
+  background-color: rgba(17, 17, 27, 0);
+  color: rgba(162, 177, 196, 0.85);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+.calendar .calendar-table::item:selected {
+  color: rgb(255, 255, 255);
+}
+.calendar .day-label {
+  margin-top: 20px;
+}
+.calendar .day-label,
+.calendar .month-label,
+.calendar .date-label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  min-width: 180px;
+  max-width: 180px;
+}
+.calendar .month-label {
+  font-weight: normal;
+}
+.calendar .date-label {
+  font-size: 88px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  margin-top: -20px;
+}
+/*DISK WIDGET*/
+.disk-widget {
+  padding: 0;
+}
+/*DISK DROPDOWN*/
+.disk-group {
+  background-color: var(--background);
+}
+.disk-group-row {
+  min-width: 220px;
+  max-width: 220px;
+  max-height: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0);
+}
+.disk-group-row:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.disk-group-label-bar {
+  max-height: 8px;
+  border: 0px solid rgba(128, 128, 128, 0);
+  background-color: rgba(148, 226, 213, 0.3);
+  border-radius: 4px;
+}
+.disk-group-label-bar::chunk {
+  background-color: rgba(148, 226, 213, 1);
+  border-radius: 4px;
+}
+.disk-group-label {
+  font-size: 13px;
+}
+.disk-group-label-size {
+  font-size: 12px;
+  color: rgba(205, 214, 244, 0.5);
+}
+/*AUDIO WIDGET*/
+.volume-widget {
+  margin-left: 0;
+  padding: 0;
+}
+.volume-widget .icon {
+  padding: 0 6px;
+  color: var(--ansi-cyan);
+}
+.volume-widget .label {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+}
+/*AUDIO DROPDOWN*/
+.audio-menu {
+  background-color: var(--background);
+}
+.audio-container .device {
+  font-family: "JetBrainsMono NFP";
+  background-color: transparent;
+  border: none;
+  padding: 6px 8px 6px 4px;
+  margin: 2px 0;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.audio-container .device.selected {
+  background-color: rgba(255, 255, 255, 0.085);
+}
+.audio-container .device:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+/*MEDIA WIDGET*/
+.media-widget {
+  padding: 0;
+}
+.media-widget .label {
+  font-family: "JetBrainsMono NFP";
+  font-size: 14px;
+  padding: 0 0px;
+}
+.media-widget .btn {
+  color: var(--ansi-red);
+}
+.media-widget .icon {
+  padding: 0 6px;
+}
+/*WALLPAPERS WIDGET*/
+.wallpapers-widget {
+  padding: 0;
+}
+/*WALLPAPERS GALLERY*/
+.wallpapers-gallery-window {
+  background-color: var(--background);
+  border: 0;
+  margin: 0;
+}
+.wallpapers-gallery-buttons {
+  font-size: 12px;
+  font-family: "" JetBrainsMono NFP "", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 8px 0;
+  border-radius: 8px;
+  margin: 0 8px 8px 8px;
+  width: 600px;
+}
+.wallpapers-gallery-buttons:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.wallpapers-gallery-image {
+  border: 4px solid transparent;
+  border-radius: 10px;
+}
+.wallpapers-gallery-image:hover {
+  border: 4px solid rgb(66, 68, 83);
+}
+.wallpapers-gallery-image.focused {
+  border: 4px solid #89b4fa;
+}
+/*POWER WIDGET*/
+.power-menu-widget {
+  padding-left: 0;
+}
+.power-menu-widget .label {
+  color: var(--ansi-red);
+  font-size: 16px;
+}
+/*POWER MENU POPUP*/
+.uptime {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(191, 202, 219, 0.726);
+  font-weight: 600;
+  font-family: "" JetBrainsMono NFP "", Tahoma, Geneva, Verdana, sans-serif;
+}
+.power-menu-popup .button {
+  padding: 0;
+  width: 160px;
+  height: 240px;
+  border-radius: 4px;
+  background-color: rgba(41, 42, 58, 0.75);
+  font-family: "Bahnscrift", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  border: 4px solid rgba(255, 255, 255, 0);
+}
+.power-menu-popup .button.hover {
+  background-color: rgb(55, 56, 75);
+  border: 4px solid rgb(55, 56, 75);
+}
+.power-menu-popup .button .label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "" JetBrainsMono NFP "", Tahoma, Geneva, Verdana, sans-serif;
+}
+.power-menu-popup .button .icon {
+  font-size: 64px;
+  padding-top: 54px;
+  color: rgba(255, 255, 255, 0.25);
+}
+.power-menu-popup .button.cancel .icon {
+  color: rgba(243, 139, 168, 0.55);
+}
+.power-menu-popup .button.cancel .label {
+  color: rgba(243, 139, 168, 0.95);
+}
+.cava-widget {
+  padding: 0;
+  margin-right: 0;
+}
+/*GITHUB WIDGET*/
+.github-widget {
+  padding: 0;
+}
+.github-widget .icon {
+  font-size: 16px;
+}
+/*GITHUB DROPDOWN*/
+.github-menu {
+  background-color: rgba(17, 17, 27, 0.2);
+  max-height: 500px;
+  min-height: 500px;
+  min-width: 420px;
+}
+.github-menu .header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px;
+  color: white;
+  background-color: rgba(17, 17, 27, 0.75);
+}
+.github-menu .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+  padding: 4px 8px 6px 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #9399b2;
+  background-color: rgba(17, 17, 27, 0.75);
+}
+.github-menu .contents {
+  background-color: rgba(17, 17, 27, 0.2);
+}
+.github-menu .contents .item {
+  min-height: 40px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+.github-menu .contents .item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.github-menu .contents .item .title,
+.github-menu .contents .item .description {
+  color: #9399b2;
+  font-family: Segoe UI;
+}
+.github-menu .contents .item .title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.github-menu .contents .item .description {
+  font-size: 12px;
+  font-weight: 500;
+}
+.github-menu .contents .item.new .title,
+.github-menu .contents .item.new .description {
+  color: #ffffff;
+}
+.github-menu .contents .item .icon {
+  font-size: 16px;
+  padding-right: 0;
+  padding-left: 8px;
+  padding-right: 4px;
+  color: #9399b2;
+}
+.github-menu .contents .item.new .icon {
+  color: #3fb950;
 }
