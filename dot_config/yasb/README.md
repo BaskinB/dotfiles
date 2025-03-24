@@ -175,7 +175,7 @@ widgets:
       api_key: '3bf4cf9a7c3f40d6b31174128242807'
       update_interval: 600 #Update interval in seconds, Min 600
       hide_decimal: true
-      location: 'Lincoln, NE, 68523'
+      location: 'Lincoln, NE'
       units: "imperial" # Can be 'metric' or 'imperial'
       callbacks:
         on_left: "toggle_label"
