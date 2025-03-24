@@ -49,7 +49,6 @@ bars:
           "media",
           "volume",
           "weather",
-          "github",
           "disk",
           "wallpapers",
           "power_menu"
@@ -60,7 +59,7 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>🦥Baskin</span>"
+      label: "<span>🦥</span>"
       menu_list:
       - { title: "Home", path: "~" }
       - { title: "Downloads", path: "~\\Downloads"}
@@ -137,7 +136,7 @@ widgets:
       api_key: '3bf4cf9a7c3f40d6b31174128242807'
       update_interval: 600 #Update interval in seconds, Min 600
       hide_decimal: true
-      location: 'Lincoln, NE, 68523'
+      location: 'Lincoln, NE'
       units: "imperial" # Can be 'metric' or 'imperial'
       callbacks:
         on_left: "toggle_label"
@@ -199,7 +198,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%D %H:%M %p}"
+      label: "{%m/%d/%y %I:%M %p}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       calendar:
@@ -280,22 +279,4 @@ widgets:
         left: 0
         bottom: 0
         right: 0
-  github:
-    type: "yasb.github.GithubWidget"
-    options:
-      label: "<span>\ueba1</span>"
-      label_alt: "Notifications {data}" # {data} return number of unread notification
-      token: env # GitHub Personal access tokens (classic) https://github.com/settings/tokens
-      max_notification: 20 # Max number of notification displaying in menu max: 50
-      only_unread: false # Show only unread or all notifications; 
-      max_field_size: 54 # Max characters in title before truncation.
-      update_interval: 300 # Check for new notification in seconds
-      menu:
-        blur: True # Enable blur effect for the menu
-        round_corners: True # Enable round corners for the menu (this option is not supported on Windows 10)
-        round_corners_type: "normal" # Set the type of round corners for the menu (normal, small) (this option is not supported on Windows 10)
-        border_color: "System" # Set the border color for the menu (this option is not supported on Windows 10)
-        alignment: "right"
-        direction: "down"
-        distance: 6
 
