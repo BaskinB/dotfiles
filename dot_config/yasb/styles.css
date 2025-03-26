@@ -17,7 +17,7 @@ For more information about configuration options, please visit the Wiki https://
   --ansi-blue: #f477ff;
   --ansi-magenta: #e92bff;
   --ansi-cyan: #4eddff;
-  --ansi-white: #cdccce;
+  --ansi-white: #050406;
   --bright-black: #2d2d2d;
   --bright-red: #ffca85;
   --bright-green: #a277ff;
@@ -59,7 +59,7 @@ For more information about configuration options, please visit the Wiki https://
 }
 
 .home-widget .icon {
-  color: var(--ansi-cyan)
+  color: var(--ansi-cyan);
 }
 
 /*HOME WIDGET DROPDOWN*/

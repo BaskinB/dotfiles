@@ -43,7 +43,7 @@ These are the main bar's settings, really the only stuff that pertains to us is 
 bars:
   primary-bar:
     enabled: true
-    screens: ['*'] 
+    screens: ["*"]
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -74,18 +74,16 @@ bars:
           "komorebi_active_layout",
           "active_window",
         ]
-      center:
-        ["clock"]
+      center: ["clock"]
       right:
         [
-          "cava",
           "media",
           "volume",
           "weather",
           "github",
           "disk",
           "wallpapers",
-          "power_menu"
+          "power_menu",
         ]
 ```
 
@@ -98,13 +96,13 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>🦥Baskin</span>"
+      label: "<span>🦥</span>"
       menu_list:
-      - { title: "Home", path: "~" }
-      - { title: "Downloads", path: "~\\Downloads"}
-      - { title: "Documents", path: "~\\Documents"}
-      - { title: "Pictures", path: "~\\Pictures"}
-      - { title: "Videos", path: "~\\Videos"}
+        - { title: "Home", path: "~" }
+        - { title: "Downloads", path: "~\\Downloads" }
+        - { title: "Documents", path: "~\\Documents" }
+        - { title: "Pictures", path: "~\\Pictures" }
+        - { title: "Videos", path: "~\\Videos" }
       system_menu: true
       power_menu: false
       blur: true
@@ -112,7 +110,7 @@ widgets:
       round_corners_type: "normal"
       border_color: ""
       distance: 5
-      container_padding: 
+      container_padding:
         top: 0
         left: 0
         bottom: 0
@@ -131,21 +129,30 @@ widgets:
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
-        label_offline: "\u26a1 Offline"
-        label_workspace_btn: "{name}"
-        label_workspace_active_btn: "{name}"
-        label_workspace_populated_btn: "{name}"
-        label_default_name: "{index}"
-        label_zero_index: false
-        hide_empty_workspaces: true
-        hide_if_offline: true
-        animation: true
+      label_offline: "\u26a1 Offline"
+      label_workspace_btn: "{name}"
+      label_workspace_active_btn: "{name}"
+      label_workspace_populated_btn: "{name}"
+      label_default_name: "{index}"
+      label_zero_index: false
+      hide_empty_workspaces: true
+      hide_if_offline: true
+      animation: true
   komorebi_active_layout:
     type: "komorebi.active_layout.ActiveLayoutWidget"
     options:
       hide_if_offline: false
       label: "{icon}"
-      layouts: ['bsp', 'columns', 'rows', 'grid', 'vertical_stack', 'horizontal_stack', 'ultrawide_vertical_stack']
+      layouts:
+        [
+          "bsp",
+          "columns",
+          "rows",
+          "grid",
+          "vertical_stack",
+          "horizontal_stack",
+          "ultrawide_vertical_stack",
+        ]
       layout_icons:
         bsp: "[]="
         columns: "[||]"
@@ -172,10 +179,10 @@ widgets:
     options:
       label: "<span>{icon}</span> {temp}"
       label_alt: "<span>{icon}</span> {location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key: '3bf4cf9a7c3f40d6b31174128242807'
-      update_interval: 600 #Update interval in seconds, Min 600
+      api_key: "3bf4cf9a7c3f40d6b31174128242807"
+      update_interval: 600 # Update interval in seconds, Min 600
       hide_decimal: true
-      location: 'Lincoln, NE'
+      location: "Lincoln, NE"
       units: "imperial" # Can be 'metric' or 'imperial'
       callbacks:
         on_left: "toggle_label"
@@ -189,27 +196,27 @@ widgets:
         snowyIcyDay: "\udb81\udd99"
         snowyIcyNight: "\udb81\udd99"
         blizzard: "\udb81\udd99"
-        default: "\udb81\udd99" 
+        default: "\udb81\udd99"
   media:
-      type: "yasb.media.MediaWidget"
-      options:
-        label: "{title}"
-        label_alt: "{artist}"
-        max_field_size:
-          label: 25
-          label_alt: 25
-        show_thumbnail: false
-        controls_only: false
-        controls_left: true
-        hide_empty: true
-        thumbnail_alpha: 250
-        thumbnail_padding: 8
-        thumbnail_corner_radius: 0
-        icons:
-          prev_track: ""
-          next_track: ""
-          play: "<span>\uf001</span>"
-          pause: "<span>\uf001</span>"
+    type: "yasb.media.MediaWidget"
+    options:
+      label: "{title}"
+      label_alt: "{artist}"
+      max_field_size:
+        label: 25
+        label_alt: 25
+      show_thumbnail: false
+      controls_only: false
+      controls_left: true
+      hide_empty: true
+      thumbnail_alpha: 250
+      thumbnail_padding: 8
+      thumbnail_corner_radius: 0
+      icons:
+        prev_track: ""
+        next_track: ""
+        play: "<span>\uf001</span>"
+        pause: "<span>\uf001</span>"
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
     options:
@@ -227,17 +234,17 @@ widgets:
       label: "<span>{icon}</span> {level}"
       label_alt: "{volume}"
       volume_icons:
-        - "\ueee8"  # Icon for muted
-        - "\uf026"  # Icon for 0-10% volume
-        - "\uf027"  # Icon for 11-30% volume
-        - "\uf027"  # Icon for 31-60% volume
-        - "\uf028"  # Icon for 61-100% volume
+        - "\ueee8" # Icon for muted
+        - "\uf026" # Icon for 0-10% volume
+        - "\uf027" # Icon for 11-30% volume
+        - "\uf027" # Icon for 31-60% volume
+        - "\uf028" # Icon for 61-100% volume
       callbacks:
         on_right: "exec cmd.exe /c start ms-settings:sound"
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%d/%m/%y %H:%M:%p}"
+      label: "{%m/%d/%y %I:%M:%p}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       calendar:
@@ -245,23 +252,23 @@ widgets:
   disk:
     type: "yasb.disk.DiskWidget"
     options:
-        label: "<span>\uf473</span>"
-        label_alt: "<span>\uf473</span>"
-        update_interval: 60
-        group_label:
-          volume_labels: ["C", "D", "E", "F"]
-          show_label_name: false
-          blur: True
-          round_corners: True
-          round_corners_type: "small"
-          border_color: "System"
-          alignment: "right"
-          direction: "down"
-          distance: 6
-        callbacks:
-          on_left: "toggle_group"
-          on_middle: "toggle_label"
-          on_right: "exec explorer C:\\" # Open disk C in file explorer
+      label: "<span>\uf473</span>"
+      label_alt: "<span>\uf473</span>"
+      update_interval: 60
+      group_label:
+        volume_labels: ["C", "D", "E", "F"]
+        show_label_name: false
+        blur: True
+        round_corners: True
+        round_corners_type: "small"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        distance: 6
+      callbacks:
+        on_left: "toggle_group"
+        on_middle: "toggle_label"
+        on_right: "exec explorer C:\\" # Open disk C in file explorer
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
@@ -283,41 +290,20 @@ widgets:
         image_corner_radius: 20
         enable_cache: true
   power_menu:
-      type: "yasb.power_menu.PowerMenuWidget"
-      options:
-        label: "\uf011"
-        uptime: True
-        blur: False
-        blur_background: True
-        animation_duration: 250 # Milisecond 
-        button_row: 5 # Number of buttons in row, min 1 max 5
-        buttons:
-          signout: ["\udb80\udf43","Sign out"]
-          shutdown: ["\uf011","Shut Down"]
-          restart: ["\uead2","Restart"]
-          hibernate: ["\uf28e","Hibernate"]
-          cancel: ["\udb81\udf3a","Cancel"]
-  cava:
-    type: "yasb.cava.CavaWidget"
+    type: "yasb.power_menu.PowerMenuWidget"
     options:
-      bar_height: 12
-      gradient: 1
-      reverse: 0
-      sensitivity: 100
-      foreground: "#fffff"
-      gradient_color_1: '#74c7ec'
-      gradient_color_2: '#89b4fa'
-      gradient_color_3: '#cba6f7'
-      bars_number: 8
-      bar_spacing: 2
-      bar_width: 4
-      sleep_timer: 0
-      hide_empty: true
-      container_padding:
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
+      label: "\uf011"
+      uptime: True
+      blur: False
+      blur_background: True
+      animation_duration: 250 # Milisecond
+      button_row: 5 # Number of buttons in row, min 1 max 5
+      buttons:
+        signout: ["\udb80\udf43", "Sign out"]
+        shutdown: ["\uf011", "Shut Down"]
+        restart: ["\uead2", "Restart"]
+        hibernate: ["\uf28e", "Hibernate"]
+        cancel: ["\udb81\udf3a", "Cancel"]
   github:
     type: "yasb.github.GithubWidget"
     options:
@@ -325,7 +311,7 @@ widgets:
       label_alt: "Notifications {data}" # {data} return number of unread notification
       token: env # GitHub Personal access tokens (classic) https://github.com/settings/tokens
       max_notification: 20 # Max number of notification displaying in menu max: 50
-      only_unread: false # Show only unread or all notifications; 
+      only_unread: false # Show only unread or all notifications;
       max_field_size: 54 # Max characters in title before truncation.
       update_interval: 300 # Check for new notification in seconds
       menu:
