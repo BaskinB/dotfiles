@@ -1,6 +1,6 @@
 /* 
-This is default and very simple styles file for Yasb. 
-For more information about configuration options, please visit the Wiki https://github.com/amnweb/yasb/wiki
+  Default and simple styles file for Yasb. 
+  For configuration options, visit: https://github.com/amnweb/yasb/wiki
 */
 :root {
   --foreground: #cdccce;
@@ -26,218 +26,245 @@ For more information about configuration options, please visit the Wiki https://
   --bright-magenta: #61ffca;
   --bright-cyan: #61ffca;
   --bright-white: #edecee;
+  --menu-bg-hover: rgba(255, 255, 255, 0.06);
+  --standard-font: "Maple Mono NF", sans-serif;
+  --icon-font: "JetBrainsMono NFP", sans-serif;
+  --ui-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 * {
+  margin: 0;
+  padding: 0;
   font-size: 12px;
   color: var(--foreground);
   font-weight: 600;
-  font-family: "JetBrainsMono NFP";
-  margin: 0;
-  padding: 0;
+  font-family: var(--standard-font);
 }
-/*GENERAL CONFIGRATIONS*/
+
+/* GENERAL CONFIGURATIONS */
 .yasb-bar {
-  padding: 0;
-  margin: 0;
   background-color: var(--background);
 }
+
 .widget {
-  padding: 0 4px;
-  margin: 0 4px;
+  margin: 0 2px;
+  padding: 0 2px;
   border-radius: 12px;
   border: 1px solid rgba(128, 128, 128, 0);
 }
-.widget .icon {
-  font-size: 18px;
+
+/* Common widget styles */
+.icon {
+  font-size: 14px;
+  font-family: var(--icon-font);
+  padding: 0 6px;
 }
+
 .widget .label {
-  color: var(--foreground);
+  font-size: 14px;
 }
-/*WIDGET*/
+
+/* Menu common styles */
+.home-menu,
+.audio-menu,
+.calendar,
+.pomodoro-menu {
+  background-color: var(--background);
+}
+
+/* LEFT WIDGETS */
 .home-widget {
   padding-bottom: 1px;
 }
 
 .home-widget .icon {
-  color: var(--ansi-cyan);
+  font-size: 22px;
 }
 
-/*HOME WIDGET DROPDOWN*/
-.home-menu {
-  background-color: var(--background);
-  padding: 0;
-  margin-left: 0px;
-}
+/* HOME WIDGET DROPDOWN */
 .home-menu .menu-item {
   padding: 6px 48px 7px 16px;
-  font-size: 12px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
+  font-family: var(--ui-font);
 }
+
 .home-menu .menu-item:hover {
   background-color: rgba(128, 130, 158, 0.15);
   color: #fff;
 }
+
 .home-menu .separator {
   max-height: 1px;
   background-color: rgba(128, 130, 158, 0.3);
 }
-/*KOMOREBI WORKSPACES WIDGET*/
+
+/* KOMOREBI WORKSPACES WIDGET */
 .komorebi-workspaces {
-  margin-left: -6px;
-  margin-right: -6px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin: 4px -6px;
   border-radius: 10px;
 }
+
 .komorebi-workspaces .offline-status {
   color: #627199;
-  font-size: 12px;
   padding: 0 4px;
-  font-weight: 600;
 }
+
 .komorebi-workspaces .ws-btn {
   font-size: 14px;
   border: none;
   color: #6c7086;
-  margin: 0 1px 0 1px;
+  margin: 0 1px;
   height: 30px;
   padding: 0 12px;
   border-bottom: 1px solid var(--background);
 }
+
 .komorebi-workspaces .ws-btn.populated {
   color: var(--foreground);
   border-bottom-color: var(--ansi-magenta);
 }
+
 .komorebi-workspaces .ws-btn.active {
   color: var(--ansi-cyan);
-  font-weight: 900;
-  width: 50px;
+  width: 60px;
   border-bottom-color: var(--ansi-cyan);
 }
-/*WEATHER WIDGET*/
-.weather-widget {
-  padding: 0;
-  padding-left: -5;
-}
-.weather-widget .icon {
-  color: var(--ansi-yellow);
-  padding: 6px;
-}
-.weather-widget .label {
-  font-size: 14px;
-  font-family: "JetBrainsMono NFP";
-}
-/*ACTIVE WINDOW WIDGET*/
-.active-window-widget .label {
-  font-size: 14px;
-  font-family: "JetBrainsMono NFP";
-}
+
+/* ACTIVE WINDOW WIDGET */
 .active-window-widget .icon {
   padding-right: 6px;
   border: none;
 }
-/*CLOCK - CALENDAR WIDGET*/
-.clock-widget .label {
-  font-size: 14px;
-  font-family: "JetBrainsMono NFP";
+
+/* CLOCK WIDGET */
+.clock-widget .widget-container .icon {
+  padding-right: 6px;
+  color: var(--ansi-cyan)
 }
-/*CLOCK - CALENDAR WIDGET DROPDOWN*/
-.calendar {
-  background-color: var(--background);
+
+/* CALENDAR STYLES */
+.calendar .icon {
+  color: var(--ansi-cyan)
 }
+
 .calendar .calendar-table,
 .calendar .calendar-table::item {
-  background-color: rgba(17, 17, 27, 0);
+  background-color: transparent;
   color: rgba(162, 177, 196, 0.85);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: var(--ui-font);
   border: none;
   outline: none;
 }
+
 .calendar .calendar-table::item:selected {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
-.calendar .day-label {
-  margin-top: 20px;
-}
+
 .calendar .day-label,
 .calendar .month-label,
 .calendar .date-label {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--ui-font);
   font-size: 16px;
   color: #fff;
   font-weight: 700;
   min-width: 180px;
   max-width: 180px;
 }
-.calendar .month-label {
-  font-weight: normal;
-}
+
 .calendar .date-label {
   font-size: 88px;
   font-weight: 900;
-  color: rgb(255, 255, 255);
   margin-top: -20px;
 }
-/*DISK WIDGET*/
-.disk-widget {
+
+.calendar .day-label {
+  margin-top: 20px;
+}
+
+.calendar .month-label {
+  font-weight: normal;
+}
+
+/* POMODORO WIDGET */
+.pomodoro-widget {
   padding: 0;
 }
-/*DISK DROPDOWN*/
-.disk-group {
-  background-color: var(--background);
+
+.pomodoro-widget .label.paused,
+.pomodoro-widget .icon.paused {
+  color: #7d7e8b;
 }
-.disk-group-row {
-  min-width: 220px;
-  max-width: 220px;
-  max-height: 40px;
-  margin: 0;
-  padding: 0;
-  border-radius: 6px;
-  border: 1px solid rgba(128, 128, 128, 0);
+
+.pomodoro-widget .icon.work {
+  color: var(--bright-cyan);
 }
-.disk-group-row:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+
+.pomodoro-widget .icon.break {
+  color: var(--ansi-cyan);
 }
-.disk-group-label-bar {
-  max-height: 8px;
-  border: 0px solid rgba(128, 128, 128, 0);
-  background-color: rgba(148, 226, 213, 0.3);
-  border-radius: 4px;
+
+/* Pomodoro menu */
+.pomodoro-menu .header {
+  font-size: 16px;
+  max-height: 0px;
 }
-.disk-group-label-bar::chunk {
-  background-color: rgba(148, 226, 213, 1);
-  border-radius: 4px;
+
+.pomodoro-menu .status {
+  font-size: 18px;
+  color: var(--ansi-blue);
 }
-.disk-group-label {
-  font-size: 13px;
-}
-.disk-group-label-size {
+
+.pomodoro-menu .session {
   font-size: 12px;
-  color: rgba(205, 214, 244, 0.5);
+  color: #a6adc8;
 }
-/*AUDIO WIDGET*/
+
+.pomodoro-menu .button {
+  background-color: #3f4053;
+  color: #cdd6f4;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.pomodoro-menu .button:hover {
+  background-color: rgba(255, 255, 255, 0.158);
+}
+
+.pomodoro-menu .button.pause {
+  background-color: var(--bright-cyan);
+  color: #1e1e2e;
+}
+
+.pomodoro-menu .button:pressed {
+  background-color: #5a5b6e;
+}
+
+/* SYSTEM WIDGETS */
+.cpu-widget,
+.memory-widget,
 .volume-widget {
   margin-left: 0;
   padding: 0;
 }
+
+.volume-widget {
+  padding-right: 6px;
+}
+
+.cpu-widget .icon {
+  color: var(--ansi-red);
+}
+
+.memory-widget .icon {
+  color: var(--bright-red);
+}
+
 .volume-widget .icon {
-  padding: 0 6px;
   color: var(--ansi-cyan);
 }
-.volume-widget .label {
-  font-size: 14px;
-  font-family: "JetBrainsMono NFP";
-}
-/*AUDIO DROPDOWN*/
-.audio-menu {
-  background-color: var(--background);
-}
+
+/* AUDIO DROPDOWN */
 .audio-container .device {
-  font-family: "JetBrainsMono NFP";
   background-color: transparent;
   border: none;
   padding: 6px 8px 6px 4px;
@@ -245,182 +272,81 @@ For more information about configuration options, please visit the Wiki https://
   font-size: 14px;
   border-radius: 4px;
 }
+
 .audio-container .device.selected {
   background-color: rgba(255, 255, 255, 0.085);
 }
+
 .audio-container .device:hover {
-  background-color: rgba(255, 255, 255, 0.06);
+  background-color: var(--menu-bg-hover);
 }
 
-/*MEDIA WIDGET*/
+/* MEDIA WIDGET */
 .media-widget {
   padding: 0;
 }
-.media-widget .label {
-  font-family: "JetBrainsMono NFP";
-  font-size: 14px;
-  padding: 0 0px;
-}
-.media-widget .btn {
+
+.media-widget .btn,
+.media-widget .icon {
+  font-family: var(--icon-font);
   color: var(--ansi-red);
 }
-.media-widget .icon {
-  padding: 0 6px;
-}
-/*WALLPAPERS WIDGET*/
-.wallpapers-widget {
-  padding: 0;
-}
-/*WALLPAPERS GALLERY*/
-.wallpapers-gallery-window {
-  background-color: var(--background);
-  border: 0;
-  margin: 0;
-}
-.wallpapers-gallery-buttons {
-  font-size: 12px;
-  font-family: "" JetBrainsMono NFP "", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
-  border: none;
-  font-size: 14px;
-  padding: 8px 0;
-  border-radius: 8px;
-  margin: 0 8px 8px 8px;
-  width: 600px;
-}
-.wallpapers-gallery-buttons:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.wallpapers-gallery-image {
-  border: 4px solid transparent;
-  border-radius: 10px;
-}
-.wallpapers-gallery-image:hover {
-  border: 4px solid rgb(66, 68, 83);
-}
-.wallpapers-gallery-image.focused {
-  border: 4px solid #89b4fa;
-}
-/*POWER WIDGET*/
+
+/* POWER WIDGET */
 .power-menu-widget {
-  padding-left: 0;
+  padding: 0 8px 0 0;
 }
+
+.power-menu-widget .icon,
 .power-menu-widget .label {
   color: var(--ansi-red);
   font-size: 16px;
 }
-/*POWER MENU POPUP*/
+
+.power-menu-widget .label {
+  padding: 0 6px;
+  font-size: 16px;
+}
+
+/* POWER MENU POPUP */
 .uptime {
   font-size: 14px;
   margin-bottom: 10px;
   color: rgba(191, 202, 219, 0.726);
-  font-weight: 600;
-  font-family: "" JetBrainsMono NFP "", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .power-menu-popup .button {
   padding: 0;
   width: 160px;
   height: 240px;
   border-radius: 4px;
   background-color: rgba(41, 42, 58, 0.75);
-  font-family: "Bahnscrift", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  border: 4px solid rgba(255, 255, 255, 0);
+  border: 4px solid transparent;
 }
+
 .power-menu-popup .button.hover {
   background-color: rgb(55, 56, 75);
-  border: 4px solid rgb(55, 56, 75);
+  border-color: rgb(55, 56, 75);
 }
+
 .power-menu-popup .button .label {
   margin-bottom: 8px;
   font-size: 16px;
-  font-weight: 600;
   color: rgba(255, 255, 255, 0.6);
-  font-family: "" JetBrainsMono NFP "", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .power-menu-popup .button .icon {
   font-size: 64px;
   padding-top: 54px;
   color: rgba(255, 255, 255, 0.25);
 }
-.power-menu-popup .button.cancel .icon {
-  color: rgba(243, 139, 168, 0.55);
-}
-.power-menu-popup .button.cancel .label {
-  color: rgba(243, 139, 168, 0.95);
-}
-.cava-widget {
-  padding: 0;
-  margin-right: 0;
-}
-/*GITHUB WIDGET*/
-.github-widget {
-  padding: 0;
-}
-.github-widget .icon {
-  font-size: 16px;
-}
-/*GITHUB DROPDOWN*/
-.github-menu {
-  background-color: rgba(17, 17, 27, 0.2);
-  max-height: 500px;
-  min-height: 500px;
-  min-width: 420px;
-}
-.github-menu .header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 15px;
-  font-weight: 400;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 8px;
-  color: white;
-  background-color: rgba(17, 17, 27, 0.75);
-}
-.github-menu .footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 12px;
-  padding: 4px 8px 6px 8px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #9399b2;
-  background-color: rgba(17, 17, 27, 0.75);
-}
-.github-menu .contents {
-  background-color: rgba(17, 17, 27, 0.2);
-}
-.github-menu .contents .item {
-  min-height: 40px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
-}
-.github-menu .contents .item:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(255, 255, 255, 0);
-}
-.github-menu .contents .item .title,
-.github-menu .contents .item .description {
-  color: #9399b2;
-  font-family: Segoe UI;
-}
-.github-menu .contents .item .title {
-  font-size: 14px;
-  font-weight: 600;
-}
-.github-menu .contents .item .description {
-  font-size: 12px;
-  font-weight: 500;
-}
-.github-menu .contents .item.new .title,
-.github-menu .contents .item.new .description {
-  color: #ffffff;
-}
-.github-menu .contents .item .icon {
-  font-size: 16px;
-  padding-right: 0;
-  padding-left: 8px;
-  padding-right: 4px;
-  color: #9399b2;
-}
-.github-menu .contents .item.new .icon {
-  color: #3fb950;
+
+.power-menu-popup .button.cancel {
+  .icon {
+    color: rgba(243, 139, 168, 0.55);
+  }
+  .label {
+    color: rgba(243, 139, 168, 0.95);
+  }
 }
