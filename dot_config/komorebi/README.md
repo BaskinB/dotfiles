@@ -193,7 +193,7 @@ We define our workspace settings per Monitor, each monitors workspaces need to h
               "kind": "Exe",
               "id": "Code.exe",
               "matching_strategy": "Equals"
-            },
+            }
           ]
         },
         {
