@@ -6,10 +6,8 @@
     hostname = {{ $hostname | quote }}
     email = {{ $email | quote }}
     name = {{ $name | quote }}
-{{ if ne .chezmoi.os "windows" -}}
-[diff]
-    pager = "less -FRX"
 [cd]
   command = "pwsh"
   args = ["-NoLogo"]
-{{ end -}}
+[diff]
+    pager = "less -FRX"
