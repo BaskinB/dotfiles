@@ -1,0 +1,1 @@
+{"binaries":["termato.exe"],"binary_aliases":{},"cdylibs":[],"cstaticlibs":[],"install_layout":"cargo-home","install_prefix":"C:\\Users\\Baskin\\scoop\\persist\\rustup\\.cargo","modify_path":true,"provider":{"source":"cargo-dist","version":"0.31.0"},"source":{"app_name":"termato","name":"termato","owner":"StevanFreeborn","release_type":"github"},"version":"0.2.0"}

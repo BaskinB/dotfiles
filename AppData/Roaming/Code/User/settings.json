@@ -1,0 +1,265 @@
+{
+  // Window Settings
+  "window.zoomLevel": 1,
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
+  "window.title": "🦥baskin-pine",
+  "window.commandCenter": false,
+  "window.density.editorTabHeight": "compact",
+  "window.openFoldersInNewWindow": "off",
+  "window.restoreWindows": "none",
+
+  // Workbench Settings
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.restoreViewState": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.layoutControl.type": "menu",
+  "workbench.list.smoothScrolling": true,
+  "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 10,
+  "workbench.iconTheme": "catppuccin-frappe",
+  "catppuccin-icons.hidesExplorerArrows": true,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000",
+    "editorSuggestWidget.selectedBackground": "#231739",
+    "list.activeSelectionBackground": "#231739",
+    "list.inactiveSelectionBackground": "#231739",
+    "list.focusBackground": "#231739",
+    "list.hoverBackground": "#231739",
+    "terminalCursor.foreground": "#e0def4",
+  },
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+
+  // Editor Settings
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.glyphMargin": false,
+  "editor.lineNumbers": "on",
+  "editor.showFoldingControls": "never",
+  "editor.padding.bottom": 2,
+  "editor.padding.top": 2,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 2,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.lightbulb.enabled": "on",
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
+  "editor.fontLigatures": true,
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 1,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+
+  // Terminal Settings
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.defaultLocation": "view",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  // Extensions Settings
+  "markdown-header-coloring.userDefinedHeaderColor": {
+    "enabled": true,
+    "Header_1": {
+      "color": "#0D1116",
+      "backgroundColor": "background-color: #5b4996;",
+      "textDecoration": "",
+    },
+    "Header_2": {
+      "color": "#0D1116",
+      "backgroundColor": "background-color: #21925b;",
+      "textDecoration": "",
+    },
+    "Header_3": {
+      "color": "#0D1116",
+      "backgroundColor": "background-color: #027d95;",
+      "textDecoration": "",
+    },
+    "Header_4": {
+      "color": "#0D1116",
+      "backgroundColor": "background-color: #585c89;",
+      "textDecoration": "",
+    },
+    "Header_5": {
+      "color": "#0D1116",
+      "backgroundColor": "background-color: #0f857c;",
+      "textDecoration": "",
+    },
+    "Header_6": {
+      "color": "#0D1116",
+      "backgroundColor": "background-color: #396592;",
+      "textDecoration": "",
+    },
+  },
+  "better-comments.tags": [
+    {
+      "tag": "TODO:",
+      "color": "#EA580C",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+    },
+    {
+      "tag": "FIXME:",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+    },
+    {
+      "tag": "BUG:",
+      "color": "#9333EA",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+    },
+    {
+      "tag": "HACK:",
+      "color": "#C026D3",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+    },
+    {
+      "tag": "NOTE:",
+      "color": "#2563EB",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+    },
+    {
+      "tag": "INFO:",
+      "color": "#0EA5E9",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+    },
+    {
+      "tag": "IDEA:",
+      "color": "#FFF",
+      "strikethrough": false,
+      "backgroundColor": "#EAB308",
+    },
+  ],
+  "Lua.runtime.version": "Lua 5.4",
+  "Lua.runtime.plugin": "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\plugin.lua",
+  "Lua.runtime.nonstandardSymbol": [
+    "/**/",
+    "`",
+    "+=",
+    "-=",
+    "*=",
+    "/=",
+    "<<=",
+    ">>=",
+    "&=",
+    "|=",
+    "^=",
+  ],
+  "Lua.workspace.ignoreDir": [".vscode", ".git", ".github", "node_modules"],
+  "Lua.workspace.library": [
+    "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\runtime",
+    "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\natives\\CFX-NATIVE",
+    "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\natives\\GTAV",
+  ],
+  "cfxlua.game": "gtav",
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/Sloth/.vscode/vscode-custom.css",
+    "file:///c:/Users/Sloth/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "[markdown]": {
+    "editor.defaultFormatter": null,
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never",
+    "source.sortImports": "explicit",
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+  },
+  "git.autofetch": true,
+  "settings.cycle": [
+    {
+      "id": "lineNumbers",
+      "values": [
+        { "editor.lineNumbers": "off" },
+        { "editor.lineNumbers": "on" },
+      ],
+    },
+    {
+      "id": "showTabs",
+      "values": [
+        { "workbench.editor.showTabs": "none" },
+        { "workbench.editor.showTabs": "multiple" },
+      ],
+    },
+  ],
+
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*\\.md$",
+        "cmd": "slothconfig",
+      },
+    ],
+  },
+
+  "glassit.alpha": 245,
+  "workbench.colorTheme": "Baskin Pine",
+  "task.allowAutomaticTasks": "off",
+  "workbench.editorAssociations": {
+    "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default",
+  },
+  "python.createEnvironment.trigger": "off",
+  "workbench.experimental.modernUI": false,
+}

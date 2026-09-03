@@ -1,0 +1,49 @@
+# chezmoi ignore patterns
+# These paths will not be managed by chezmoi
+
+# macOS
+.DS_Store
+
+# Editor temp files
+*.swp
+*.swo
+*~
+
+# Nested git repos (e.g. nvim has its own .git)
+**/.git/**
+AppData/Local/nvim/.exe/**
+
+# chezmoi internal
+.chezmoiroot
+
+# Repo-only files — don't apply these to the home directory
+README.md
+packages
+scripts
+.gitattributes
+.gitignore
+
+# Windows-only paths — skip on Linux
+{{ if ne .chezmoi.os "windows" }}
+AppData/**
+dot_wslconfig
+Documents/**
+{{ end }}
+
+# Linux-only paths — skip on Windows
+{{ if ne .chezmoi.os "linux" }}
+.zshrc
+.zshenv
+.oh-my-zsh/**
+{{ end }}
+
+# Linux-only scripts — skip on Windows
+{{ if ne .chezmoi.os "linux" }}
+.chezmoiscripts/linux_*
+.chezmoiscripts/setup-ssh-keys.sh
+{{ end }}
+
+# Windows-only scripts — skip on Linux
+{{ if ne .chezmoi.os "windows" }}
+.chezmoiscripts/windows_*
+{{ end }}
