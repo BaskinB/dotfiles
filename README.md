@@ -4,10 +4,6 @@ Hello there! 👋
 
 Welcome to my personal Windows Dotfiles repository. This is where I keep all my dotfiles and configuration settings to make my computing environment feel just like home. Feel free to explore and get cozy!
 
-## Literate Configs 📚
-
-Some of these configurations are written as Literate Configs in their respective README.md using a custom Python script. This script tangles markdown code blocks into their required formats and files, making it easier to manage and understand the configurations. By keeping the documentation and code together, it ensures that everything stays up-to-date and well-documented.
-
 ## Software
 
 Here's a list of software that I use and configure with my dotfiles:
