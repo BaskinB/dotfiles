@@ -1,53 +1,32 @@
-# chezmoi ignore patterns
-# These paths will not be managed by chezmoi
+# .chezmoiignore
+# Patterns match TARGET paths (e.g. .config/nvim), not source names (dot_config/nvim).
+# This file is a template, so chezmoi template conditionals work here.
 
-# macOS
-.DS_Store
-
-# Editor temp files
-*.swp
-*.swo
-*~
-
-# Nested git repos (e.g. nvim has its own .git)
-**/.git/**
-AppData/Local/nvim/.exe/**
-
-# chezmoi internal
-.chezmoiroot
-
-# Repo-only files — don't apply these to the home directory
+# --- Repo-only files: never apply these to the home directory ---
 README.md
-packages
-scripts
+LICENSE*
 .gitattributes
 .gitignore
 
-# PowerShell folders
+# --- Transitional: delete these from the repo, then remove the lines ---
+# Vendored PowerShell modules (installed by run_onchange_after_install-pwsh-modules.ps1)
 Documents/PowerShell/Modules
-Documents/PowerShell/Help
+# Upstream kickstart.nvim meta files
+.config/nvim/README.md
+.config/nvim/LICENSE.md
+.config/nvim/.github
+.config/nvim/doc
+# Backups, installer receipts, and tool state that churns on its own
+.config/starship/starship.toml.bak
+.config/termato
+.config/scoop
+.config/nodemon.json
+.config/gh/hosts.yml
+.config/lazygit/empty_config.yml
 
-# Windows-only paths — skip on Linux
+# --- Platform guard: this repo is Windows-only ---
 {{ if ne .chezmoi.os "windows" }}
-AppData/**
-dot_wslconfig
-Documents/**
-{{ end }}
-
-# Linux-only paths — skip on Windows
-{{ if ne .chezmoi.os "linux" }}
-.zshrc
-.zshenv
-.oh-my-zsh/**
-{{ end }}
-
-# Linux-only scripts — skip on Windows
-{{ if ne .chezmoi.os "linux" }}
-.chezmoiscripts/linux_*
-.chezmoiscripts/setup-ssh-keys.sh
-{{ end }}
-
-# Windows-only scripts — skip on Linux
-{{ if ne .chezmoi.os "windows" }}
-.chezmoiscripts/windows_*
+AppData
+Documents
+.vscode
 {{ end }}

@@ -159,7 +159,7 @@
     },
   ],
   "Lua.runtime.version": "Lua 5.4",
-  "Lua.runtime.plugin": "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\plugin.lua",
+  "Lua.runtime.plugin": "c:\\Users\\{{ .chezmoi.homeDir }}\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\plugin.lua",
   "Lua.runtime.nonstandardSymbol": [
     "/**/",
     "`",
@@ -175,14 +175,14 @@
   ],
   "Lua.workspace.ignoreDir": [".vscode", ".git", ".github", "node_modules"],
   "Lua.workspace.library": [
-    "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\runtime",
-    "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\natives\\CFX-NATIVE",
-    "c:\\Users\\Sloth\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\natives\\GTAV",
+    "c:\\Users\\{{ .chezmoi.homeDir }}\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\runtime",
+    "c:\\Users\\{{ .chezmoi.homeDir }}\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\natives\\CFX-NATIVE",
+    "c:\\Users\\{{ .chezmoi.homeDir }}\\.vscode\\extensions\\overextended.cfxlua-vscode-1.7.37\\plugin\\library\\natives\\GTAV",
   ],
   "cfxlua.game": "gtav",
   "vscode_custom_css.imports": [
-    "file:///c:/Users/Sloth/.vscode/vscode-custom.css",
-    "file:///c:/Users/Sloth/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+    "file:///c:/Users/{{ .chezmoi.homeDir }}/.vscode/vscode-custom.css",
+    "file:///c:/Users/{{ .chezmoi.homeDir }}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
   ],
   "security.workspace.trust.untrustedFiles": "open",
   "[markdown]": {
@@ -249,7 +249,7 @@
     "commands": [
       {
         "match": ".*\\.md$",
-        "cmd": "slothconfig",
+        "cmd": "{{ .chezmoi.homeDir }}config",
       },
     ],
   },
