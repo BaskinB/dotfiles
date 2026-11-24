@@ -23,6 +23,10 @@ scripts
 .gitattributes
 .gitignore
 
+# PowerShell folders
+Documents/PowerShell/Modules
+Documents/PowerShell/Help
+
 # Windows-only paths — skip on Linux
 {{ if ne .chezmoi.os "windows" }}
 AppData/**
