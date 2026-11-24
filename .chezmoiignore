@@ -8,21 +8,16 @@ LICENSE*
 .gitattributes
 .gitignore
 
-# --- Transitional: delete these from the repo, then remove the lines ---
-# Vendored PowerShell modules (installed by run_onchange_after_install-pwsh-modules.ps1)
+# --- Managed outside chezmoi ---
+# Modules are installed by run_onchange_after_install-pwsh-modules.ps1
 Documents/PowerShell/Modules
-# Upstream kickstart.nvim meta files
-.config/nvim/README.md
-.config/nvim/LICENSE.md
-.config/nvim/.github
-.config/nvim/doc
-# Backups, installer receipts, and tool state that churns on its own
-.config/starship/starship.toml.bak
-.config/termato
-.config/scoop
-.config/nodemon.json
+Documents/PowerShell/Help
+
+# --- Machine state: keep out of the repo even if re-added by accident ---
 .config/gh/hosts.yml
-.config/lazygit/empty_config.yml
+.config/scoop/config.json
+.config/termato
+.config/nodemon.json
 
 # --- Platform guard: this repo is Windows-only ---
 {{ if ne .chezmoi.os "windows" }}

@@ -12,3 +12,14 @@
 	email = {{ .email }}
 [init]
 	defaultBranch = main
+{{- /* Only trust FiveM server folders on machines where they actually exist */}}
+[safe]
+{{- range list
+      "D:/FXServer/txData-qbox/Qbox_200387.base/resources/[hud]/baskin_compass"
+      "D:/FXServer/txData-tgrp/TGRP"
+      "E:/FXServer/txData-mythic"
+      "E:/FXServer/sandbox-fivem" }}
+{{-   if stat . }}
+	directory = {{ . }}
+{{-   end }}
+{{- end }}
